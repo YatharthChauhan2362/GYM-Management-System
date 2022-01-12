@@ -1,0 +1,693 @@
+.elementor-kit-4 {
+  --e-global-color-vamtam_accent_1: #d6fb00;
+  --e-global-color-vamtam_accent_2: #191919;
+  --e-global-color-vamtam_accent_3: #5e5e5e;
+  --e-global-color-vamtam_accent_4: #313131;
+  --e-global-color-vamtam_accent_5: #ffffff;
+  --e-global-color-vamtam_accent_6: #000000;
+  --e-global-color-vamtam_accent_7: #ededed;
+  --e-global-color-vamtam_accent_8: #929292;
+  --e-global-color-vamtam_primary_font_color: #191919;
+  --e-global-color-vamtam_h1_color: #191919;
+  --e-global-color-vamtam_h2_color: #191919;
+  --e-global-color-vamtam_h3_color: #191919;
+  --e-global-color-vamtam_h4_color: #191919;
+  --e-global-color-vamtam_h5_color: #191919;
+  --e-global-color-vamtam_h6_color: #191919;
+  --e-global-color-vamtam_sticky_header_bg_color: #d6fb00;
+  --e-global-color-d15dab7: #191919;
+  --e-global-color-c008354: #191919;
+  --e-global-color-3eb5d3c: #191919;
+  --e-global-color-1eaf13c: #191919;
+  --e-global-color-0aaee05: #191919;
+  --e-global-color-1addba1: #191919;
+  --e-global-color-084f941: #d6fb00;
+  --e-global-typography-vamtam_primary_font-font-family: "Helvetica";
+  --e-global-typography-vamtam_primary_font-font-size: 16px;
+  --e-global-typography-vamtam_primary_font-line-height: 1.375em;
+  --e-global-typography-vamtam_h1-font-family: "Kanit";
+  --e-global-typography-vamtam_h1-font-size: 70px;
+  --e-global-typography-vamtam_h1-font-weight: 600;
+  --e-global-typography-vamtam_h1-text-transform: uppercase;
+  --e-global-typography-vamtam_h1-line-height: 0.91em;
+  --e-global-typography-vamtam_h2-font-family: "Kanit";
+  --e-global-typography-vamtam_h2-font-size: 60px;
+  --e-global-typography-vamtam_h2-font-weight: 700;
+  --e-global-typography-vamtam_h2-text-transform: uppercase;
+  --e-global-typography-vamtam_h2-line-height: 0.86em;
+  --e-global-typography-vamtam_h2-letter-spacing: 1px;
+  --e-global-typography-vamtam_h3-font-family: "Kanit";
+  --e-global-typography-vamtam_h3-font-size: 36px;
+  --e-global-typography-vamtam_h3-font-weight: 600;
+  --e-global-typography-vamtam_h3-text-transform: uppercase;
+  --e-global-typography-vamtam_h3-line-height: 0.95em;
+  --e-global-typography-vamtam_h4-font-family: "Kanit";
+  --e-global-typography-vamtam_h4-font-size: 30px;
+  --e-global-typography-vamtam_h4-font-weight: 600;
+  --e-global-typography-vamtam_h4-text-transform: uppercase;
+  --e-global-typography-vamtam_h4-line-height: 0.93em;
+  --e-global-typography-vamtam_h5-font-family: "Kanit";
+  --e-global-typography-vamtam_h5-font-size: 20px;
+  --e-global-typography-vamtam_h5-font-weight: 600;
+  --e-global-typography-vamtam_h5-line-height: 1.1em;
+  --e-global-typography-vamtam_h6-font-family: "Kanit";
+  --e-global-typography-vamtam_h6-font-size: 14px;
+  --e-global-typography-vamtam_h6-font-weight: 600;
+  --e-global-typography-vamtam_h6-text-transform: uppercase;
+  --e-global-typography-vamtam_h6-line-height: 1em;
+  --e-global-typography-0d23e54-font-family: "Kanit";
+  --e-global-typography-0d23e54-font-size: 90px;
+  --e-global-typography-0d23e54-font-weight: bold;
+  --e-global-typography-0d23e54-line-height: 0.77em;
+  --e-global-typography-b5e5d82-font-family: "Helvetica";
+  --e-global-typography-b5e5d82-font-size: 22px;
+  --e-global-typography-b5e5d82-font-weight: 500;
+  --e-global-typography-b5e5d82-text-transform: none;
+  --e-global-typography-b5e5d82-line-height: 1.5em;
+  --e-global-typography-19f8d25-font-family: "Helvetica";
+  --e-global-typography-19f8d25-font-size: 14px;
+  --e-global-typography-19f8d25-line-height: 1.4em;
+  --e-global-typography-396de09-font-family: "Helvetica";
+  --e-global-typography-396de09-font-size: 12px;
+  --e-global-typography-396de09-line-height: 1.33em;
+  --e-global-typography-bb4a0e2-font-family: "Kanit";
+  --e-global-typography-bb4a0e2-font-size: 14px;
+  --e-global-typography-bb4a0e2-font-weight: 600;
+  --e-global-typography-bb4a0e2-text-transform: uppercase;
+  --e-global-typography-bb4a0e2-line-height: 1.375em;
+  --e-global-typography-749e9af-font-family: "Kanit";
+  --e-global-typography-749e9af-font-size: 13px;
+  --e-global-typography-749e9af-font-weight: 600;
+  --e-global-typography-749e9af-text-transform: uppercase;
+  --e-global-typography-749e9af-line-height: 2.8em;
+  color: var(--e-global-color-vamtam_accent_2);
+  font-family: var(--e-global-typography-vamtam_primary_font-font-family),
+    Sans-serif;
+  font-size: var(--e-global-typography-vamtam_primary_font-font-size);
+  line-height: var(--e-global-typography-vamtam_primary_font-line-height);
+}
+.elementor-kit-4 a:hover {
+  color: var(--e-global-color-vamtam_accent_6);
+}
+.elementor-kit-4 h1 {
+  color: var(--e-global-color-d15dab7);
+  font-family: var(--e-global-typography-vamtam_h1-font-family), Sans-serif;
+  font-size: var(--e-global-typography-vamtam_h1-font-size);
+  font-weight: var(--e-global-typography-vamtam_h1-font-weight);
+  text-transform: var(--e-global-typography-vamtam_h1-text-transform);
+  line-height: var(--e-global-typography-vamtam_h1-line-height);
+}
+.elementor-kit-4 .font-h1 {
+  color: var(--e-global-color-d15dab7);
+  font-family: var(--e-global-typography-vamtam_h1-font-family), Sans-serif;
+  font-size: var(--e-global-typography-vamtam_h1-font-size);
+  font-weight: var(--e-global-typography-vamtam_h1-font-weight);
+  text-transform: var(--e-global-typography-vamtam_h1-text-transform);
+  line-height: var(--e-global-typography-vamtam_h1-line-height);
+}
+.elementor-kit-4 h2 {
+  color: var(--e-global-color-c008354);
+  font-family: var(--e-global-typography-vamtam_h2-font-family), Sans-serif;
+  font-size: var(--e-global-typography-vamtam_h2-font-size);
+  font-weight: var(--e-global-typography-vamtam_h2-font-weight);
+  text-transform: var(--e-global-typography-vamtam_h2-text-transform);
+  line-height: var(--e-global-typography-vamtam_h2-line-height);
+  letter-spacing: var(--e-global-typography-vamtam_h2-letter-spacing);
+}
+.elementor-kit-4 .font-h2 {
+  color: var(--e-global-color-c008354);
+  font-family: var(--e-global-typography-vamtam_h2-font-family), Sans-serif;
+  font-size: var(--e-global-typography-vamtam_h2-font-size);
+  font-weight: var(--e-global-typography-vamtam_h2-font-weight);
+  text-transform: var(--e-global-typography-vamtam_h2-text-transform);
+  line-height: var(--e-global-typography-vamtam_h2-line-height);
+  letter-spacing: var(--e-global-typography-vamtam_h2-letter-spacing);
+}
+.elementor-kit-4 h3 {
+  color: var(--e-global-color-3eb5d3c);
+  font-family: var(--e-global-typography-vamtam_h3-font-family), Sans-serif;
+  font-size: var(--e-global-typography-vamtam_h3-font-size);
+  font-weight: var(--e-global-typography-vamtam_h3-font-weight);
+  text-transform: var(--e-global-typography-vamtam_h3-text-transform);
+  line-height: var(--e-global-typography-vamtam_h3-line-height);
+}
+.elementor-kit-4 .font-h3 {
+  color: var(--e-global-color-3eb5d3c);
+  font-family: var(--e-global-typography-vamtam_h3-font-family), Sans-serif;
+  font-size: var(--e-global-typography-vamtam_h3-font-size);
+  font-weight: var(--e-global-typography-vamtam_h3-font-weight);
+  text-transform: var(--e-global-typography-vamtam_h3-text-transform);
+  line-height: var(--e-global-typography-vamtam_h3-line-height);
+}
+.elementor-kit-4 h4 {
+  color: var(--e-global-color-1eaf13c);
+  font-family: var(--e-global-typography-vamtam_h4-font-family), Sans-serif;
+  font-size: var(--e-global-typography-vamtam_h4-font-size);
+  font-weight: var(--e-global-typography-vamtam_h4-font-weight);
+  text-transform: var(--e-global-typography-vamtam_h4-text-transform);
+  line-height: var(--e-global-typography-vamtam_h4-line-height);
+}
+.elementor-kit-4 .font-h4 {
+  color: var(--e-global-color-1eaf13c);
+  font-family: var(--e-global-typography-vamtam_h4-font-family), Sans-serif;
+  font-size: var(--e-global-typography-vamtam_h4-font-size);
+  font-weight: var(--e-global-typography-vamtam_h4-font-weight);
+  text-transform: var(--e-global-typography-vamtam_h4-text-transform);
+  line-height: var(--e-global-typography-vamtam_h4-line-height);
+}
+.elementor-kit-4 h5 {
+  color: var(--e-global-color-0aaee05);
+  font-family: var(--e-global-typography-vamtam_h5-font-family), Sans-serif;
+  font-size: var(--e-global-typography-vamtam_h5-font-size);
+  font-weight: var(--e-global-typography-vamtam_h5-font-weight);
+  line-height: var(--e-global-typography-vamtam_h5-line-height);
+}
+.elementor-kit-4 .font-h5 {
+  color: var(--e-global-color-0aaee05);
+  font-family: var(--e-global-typography-vamtam_h5-font-family), Sans-serif;
+  font-size: var(--e-global-typography-vamtam_h5-font-size);
+  font-weight: var(--e-global-typography-vamtam_h5-font-weight);
+  line-height: var(--e-global-typography-vamtam_h5-line-height);
+}
+.elementor-kit-4 h6 {
+  color: var(--e-global-color-1addba1);
+  font-family: var(--e-global-typography-vamtam_h6-font-family), Sans-serif;
+  font-size: var(--e-global-typography-vamtam_h6-font-size);
+  font-weight: var(--e-global-typography-vamtam_h6-font-weight);
+  text-transform: var(--e-global-typography-vamtam_h6-text-transform);
+  line-height: var(--e-global-typography-vamtam_h6-line-height);
+}
+.elementor-kit-4 .font-h6 {
+  color: var(--e-global-color-1addba1);
+  font-family: var(--e-global-typography-vamtam_h6-font-family), Sans-serif;
+  font-size: var(--e-global-typography-vamtam_h6-font-size);
+  font-weight: var(--e-global-typography-vamtam_h6-font-weight);
+  text-transform: var(--e-global-typography-vamtam_h6-text-transform);
+  line-height: var(--e-global-typography-vamtam_h6-line-height);
+}
+.elementor-kit-4 button,
+.elementor-kit-4 input[type="button"],
+.elementor-kit-4 input[type="submit"],
+.elementor-kit-4 .elementor-button {
+  font-family: kanit, Sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.07em;
+  color: var(--e-global-color-vamtam_accent_2);
+  background-color: #d6fb0000;
+  border-radius: 0 0 0 0;
+  padding: 0;
+}
+html .button,
+html button,
+html input[type="button"],
+html input[type="submit"],
+html
+  .woocommerce.widget_shopping_cart
+  .widget_shopping_cart_content
+  .buttons
+  a.button,
+html .woocommerce a.button,
+html .woocommerce a.button.loading,
+html .woocommerce .cross-sells .add_to_cart_button,
+html .woocommerce a.added_to_cart,
+html .woocommerce button.button,
+html .woocommerce input.button,
+html
+  .woocommerce.woocommerce-cart
+  .cross-sells
+  ul.products
+  > li.product
+  .button.add_to_cart_button,
+html .woocommerce #respond input#submit,
+html .woocommerce #content input.button,
+html .woocommerce-page a.button,
+html .woocommerce-page button.button,
+html .woocommerce-page input.button,
+html .woocommerce-page #respond input#submit,
+html .woocommerce-page #content input.button,
+html .woocommerce #respond input#submit.alt,
+html .woocommerce a.button.alt,
+html .woocommerce button.button.alt,
+html .woocommerce input.button.alt,
+html .woocommerce .woocommerce-message .vamtam-close-notice-btn,
+html a.comment-reply-link,
+html
+  .elementor-widget-woocommerce-menu-cart.elementor-element
+  .elementor-button.elementor-button--checkout,
+html
+  .elementor-widget-woocommerce-menu-cart.elementor-element
+  .elementor-button.elementor-button--view-cart {
+  font-family: kanit, Sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.07em;
+  color: var(--e-global-color-vamtam_accent_2);
+  background-color: #d6fb0000;
+  border-radius: 0 0 0 0;
+  padding: 0;
+}
+.elementor-kit-4 button:hover,
+.elementor-kit-4 button:focus,
+.elementor-kit-4 input[type="button"]:hover,
+.elementor-kit-4 input[type="button"]:focus,
+.elementor-kit-4 input[type="submit"]:hover,
+.elementor-kit-4 input[type="submit"]:focus,
+.elementor-kit-4 .elementor-button:hover,
+.elementor-kit-4 .elementor-button:focus {
+  color: var(--e-global-color-vamtam_accent_2);
+  border-radius: 0 0 0 0;
+}
+html .button:hover,
+html button:hover,
+html input[type="button"]:hover,
+html input[type="submit"]:hover,
+html
+  .woocommerce.widget_shopping_cart
+  .widget_shopping_cart_content
+  .buttons
+  a.button:hover,
+html .woocommerce a.button:hover,
+html .woocommerce a.button.loading:hover,
+html .woocommerce .cross-sells .add_to_cart_button:hover,
+html .woocommerce a.added_to_cart:hover,
+html .woocommerce button.button:hover,
+html .woocommerce input.button:hover,
+html
+  .woocommerce.woocommerce-cart
+  .cross-sells
+  ul.products
+  > li.product
+  .button.add_to_cart_button:hover,
+html .woocommerce #respond input#submit:hover,
+html .woocommerce #content input.button:hover,
+html .woocommerce-page a.button:hover,
+html .woocommerce-page button.button:hover,
+html .woocommerce-page input.button:hover,
+html .woocommerce-page #respond input#submit:hover,
+html .woocommerce-page #content input.button:hover,
+html .woocommerce #respond input#submit.alt:hover,
+html .woocommerce a.button.alt:hover,
+html .woocommerce button.button.alt:hover,
+html .woocommerce input.button.alt:hover,
+html .woocommerce .woocommerce-message .vamtam-close-notice-btn:hover,
+html a.comment-reply-link:hover,
+html
+  .elementor-widget-woocommerce-menu-cart.elementor-element
+  .elementor-button.elementor-button--checkout:hover,
+html
+  .elementor-widget-woocommerce-menu-cart.elementor-element
+  .elementor-button.elementor-button--view-cart:hover {
+  color: var(--e-global-color-vamtam_accent_2);
+  border-radius: 0 0 0 0;
+}
+html
+  .woocommerce.woocommerce-page
+  .cart-collaterals
+  .wc-proceed-to-checkout
+  .checkout-button,
+html
+  .woocommerce.woocommerce-page
+  .vamtam-cart-collaterals
+  .coupon
+  button[name="apply_coupon"],
+html
+  .woocommerce.woocommerce-page
+  .checkout_coupon
+  .button[name="apply_coupon"],
+html .woocommerce.woocommerce-page #place_order,
+html
+  .woocommerce.woocommerce-page
+  .woocommerce-form-login
+  .woocommerce-form-login__submit,
+html .woocommerce.woocommerce-page .woocommerce-Button.button,
+html .woocommerce.woocommerce-page .woocommerce-button.button,
+html
+  .woocommerce.woocommerce-page.woocommerce-cart
+  .cross-sells
+  ul.products
+  > li.product
+  .button.add_to_cart_button {
+  font-family: var(--e-global-typography-bb4a0e2-font-family), Sans-serif;
+  font-size: var(--e-global-typography-bb4a0e2-font-size);
+  font-weight: var(--e-global-typography-bb4a0e2-font-weight);
+  text-transform: var(--e-global-typography-bb4a0e2-text-transform);
+  line-height: var(--e-global-typography-bb4a0e2-line-height);
+  letter-spacing: var(--e-global-typography-bb4a0e2-letter-spacing);
+  word-spacing: var(--e-global-typography-bb4a0e2-word-spacing);
+  color: var(--e-global-color-vamtam_accent_2);
+  background-color: var(--e-global-color-vamtam_accent_1);
+  padding: 20px 35px;
+}
+html
+  .woocommerce.woocommerce-page
+  .cart-collaterals
+  .wc-proceed-to-checkout
+  .checkout-button:hover,
+html
+  .woocommerce.woocommerce-page
+  .vamtam-cart-collaterals
+  .coupon
+  button[name="apply_coupon"]:hover,
+html
+  .woocommerce.woocommerce-page
+  .checkout_coupon
+  .button[name="apply_coupon"]:hover,
+html .woocommerce.woocommerce-page #place_order:hover,
+html
+  .woocommerce.woocommerce-page
+  .woocommerce-form-login
+  .woocommerce-form-login__submit:hover,
+html .woocommerce.woocommerce-page .woocommerce-Button.button:hover,
+html .woocommerce.woocommerce-page .woocommerce-button.button:hover,
+html
+  .woocommerce.woocommerce-page.woocommerce-cart
+  .cross-sells
+  ul.products
+  > li.product
+  .button.add_to_cart_button:hover {
+  color: var(--e-global-color-vamtam_accent_5);
+  background-color: var(--e-global-color-vamtam_accent_6);
+}
+.elementor-kit-4 label {
+  color: var(--e-global-color-vamtam_accent_2);
+  font-family: var(--e-global-typography-vamtam_primary_font-font-family),
+    Sans-serif;
+  font-size: var(--e-global-typography-vamtam_primary_font-font-size);
+  line-height: var(--e-global-typography-vamtam_primary_font-line-height);
+}
+.elementor-kit-4 input:not([type="button"]):not([type="submit"]),
+.elementor-kit-4 textarea,
+.elementor-kit-4 .elementor-field-textual {
+  font-family: helvetica, Sans-serif;
+  font-size: 16px;
+  line-height: 1.375em;
+  color: var(--e-global-color-vamtam_accent_2);
+  background-color: var(--e-global-color-vamtam_accent_5);
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--e-global-color-vamtam_accent_2);
+  border-radius: 0 0 0 0;
+  transition: 388ms;
+}
+.elementor-kit-4 select,
+.elementor-kit-4 .elementor-field-group .elementor-select-wrapper select,
+.elementor-kit-4
+  .select2.select2-container
+  .selection
+  > .select2-selection[role="combobox"] {
+  font-family: helvetica, Sans-serif;
+  font-size: 16px;
+  line-height: 1.375em;
+}
+.elementor-kit-4 select,
+.elementor-kit-4 .select2.select2-container .select2-selection[role="combobox"],
+.elementor-kit-4 .elementor-field-group .elementor-select-wrapper select,
+.elementor-kit-4 .elementor-select-wrapper,
+.elementor-kit-4 input:not([type="button"]):not([type="submit"]),
+.elementor-kit-4 input:not([type="button"]):not([type="submit"])::placeholder,
+.elementor-kit-4 textarea,
+.elementor-kit-4 textarea::placeholder,
+.elementor-kit-4 .elementor-field-textual,
+.elementor-kit-4 .elementor-field-textual::placeholder {
+  color: var(--e-global-color-vamtam_accent_2);
+  caret-color: var(--e-global-color-vamtam_accent_2);
+}
+.elementor-kit-4 select,
+.elementor-kit-4 .elementor-field-group .elementor-select-wrapper select,
+.elementor-kit-4 .select2.select2-container .select2-selection[role="combobox"],
+.elementor-kit-4 input[type="checkbox"] + label::before {
+  background-color: var(--e-global-color-vamtam_accent_5);
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--e-global-color-vamtam_accent_2);
+  border-radius: 0 0 0 0;
+}
+.elementor-kit-4 input:focus:not([type="button"]):not([type="submit"]),
+.elementor-kit-4 textarea:focus,
+.elementor-kit-4 .elementor-field-textual:focus {
+  color: var(--e-global-color-vamtam_accent_2);
+  background-color: var(--e-global-color-vamtam_accent_5);
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--e-global-color-vamtam_accent_1);
+}
+.elementor-kit-4 select:focus,
+.elementor-kit-4
+  .select2.select2-container
+  .select2-selection[role="combobox"]:focus,
+.elementor-kit-4 .elementor-field-group .elementor-select-wrapper select:focus,
+.elementor-kit-4 .elementor-select-wrapper:focus-within,
+.elementor-kit-4 input:focus:not([type="button"]):not([type="submit"]),
+.elementor-kit-4
+  input:focus:not([type="button"]):not([type="submit"])::placeholder,
+.elementor-kit-4 textarea:focus,
+.elementor-kit-4 textarea:focus::placeholder,
+.elementor-kit-4 .elementor-field-textual:focus,
+.elementor-kit-4 .elementor-field-textual:focus::placeholder {
+  color: var(--e-global-color-vamtam_accent_2);
+  caret-color: var(--e-global-color-vamtam_accent_2);
+}
+.elementor-kit-4 select:focus,
+.elementor-kit-4 .elementor-field-group .elementor-select-wrapper select:focus,
+.elementor-kit-4
+  .select2.select2-container
+  .select2-selection[role="combobox"]:focus,
+.elementor-kit-4 input[type="checkbox"]:focus + label::before {
+  background-color: var(--e-global-color-vamtam_accent_5);
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--e-global-color-vamtam_accent_1);
+}
+.elementor-kit-4 select:hover,
+.elementor-kit-4 .elementor-field-group .elementor-select-wrapper select:hover,
+.elementor-kit-4
+  .select2.select2-container
+  .select2-selection[role="combobox"]:hover,
+.elementor-kit-4 input:hover:not([type="button"]):not([type="submit"]),
+.elementor-kit-4 textarea:hover,
+.elementor-kit-4 .elementor-field-textual:hover,
+.elementor-kit-4 input[type="checkbox"]:hover + label::before {
+  border-color: var(--e-global-color-vamtam_accent_1);
+}
+.elementor-kit-4 select,
+.elementor-kit-4 .elementor-field-group .elementor-select-wrapper select,
+.elementor-kit-4 .elementor-select-wrapper:before,
+.elementor-kit-4 .select2.select2-container .select2-selection[role="combobox"],
+.elementor-kit-4 input[type="checkbox"] + label::before {
+  transition: 388ms;
+}
+.elementor-section.elementor-section-boxed > .elementor-container {
+  max-width: 1260px;
+}
+.elementor-widget:not(:last-child) {
+  margin-bottom: 20px;
+}
+ {
+}
+h1.entry-title {
+  display: var(--page-title-display);
+}
+@media (max-width: 1024px) {
+  .elementor-kit-4 {
+    --e-global-typography-vamtam_h1-font-size: 65px;
+    --e-global-typography-vamtam_h2-font-size: 35px;
+    --e-global-typography-vamtam_h3-font-size: 32px;
+    --e-global-typography-vamtam_h3-line-height: 0.94em;
+    --e-global-typography-0d23e54-font-size: 60px;
+    --e-global-typography-0d23e54-line-height: 1em;
+    --e-global-typography-b5e5d82-line-height: 1.55em;
+    font-size: var(--e-global-typography-vamtam_primary_font-font-size);
+    line-height: var(--e-global-typography-vamtam_primary_font-line-height);
+  }
+  .elementor-kit-4 h1 {
+    font-size: var(--e-global-typography-vamtam_h1-font-size);
+    line-height: var(--e-global-typography-vamtam_h1-line-height);
+  }
+  .elementor-kit-4 .font-h1 {
+    font-size: var(--e-global-typography-vamtam_h1-font-size);
+    line-height: var(--e-global-typography-vamtam_h1-line-height);
+  }
+  .elementor-kit-4 h2 {
+    font-size: var(--e-global-typography-vamtam_h2-font-size);
+    line-height: var(--e-global-typography-vamtam_h2-line-height);
+    letter-spacing: var(--e-global-typography-vamtam_h2-letter-spacing);
+  }
+  .elementor-kit-4 .font-h2 {
+    font-size: var(--e-global-typography-vamtam_h2-font-size);
+    line-height: var(--e-global-typography-vamtam_h2-line-height);
+    letter-spacing: var(--e-global-typography-vamtam_h2-letter-spacing);
+  }
+  .elementor-kit-4 h3 {
+    font-size: var(--e-global-typography-vamtam_h3-font-size);
+    line-height: var(--e-global-typography-vamtam_h3-line-height);
+  }
+  .elementor-kit-4 .font-h3 {
+    font-size: var(--e-global-typography-vamtam_h3-font-size);
+    line-height: var(--e-global-typography-vamtam_h3-line-height);
+  }
+  .elementor-kit-4 h4 {
+    font-size: var(--e-global-typography-vamtam_h4-font-size);
+    line-height: var(--e-global-typography-vamtam_h4-line-height);
+  }
+  .elementor-kit-4 .font-h4 {
+    font-size: var(--e-global-typography-vamtam_h4-font-size);
+    line-height: var(--e-global-typography-vamtam_h4-line-height);
+  }
+  .elementor-kit-4 h5 {
+    font-size: var(--e-global-typography-vamtam_h5-font-size);
+    line-height: var(--e-global-typography-vamtam_h5-line-height);
+  }
+  .elementor-kit-4 .font-h5 {
+    font-size: var(--e-global-typography-vamtam_h5-font-size);
+    line-height: var(--e-global-typography-vamtam_h5-line-height);
+  }
+  .elementor-kit-4 h6 {
+    font-size: var(--e-global-typography-vamtam_h6-font-size);
+    line-height: var(--e-global-typography-vamtam_h6-line-height);
+  }
+  .elementor-kit-4 .font-h6 {
+    font-size: var(--e-global-typography-vamtam_h6-font-size);
+    line-height: var(--e-global-typography-vamtam_h6-line-height);
+  }
+  html
+    .woocommerce.woocommerce-page
+    .cart-collaterals
+    .wc-proceed-to-checkout
+    .checkout-button,
+  html
+    .woocommerce.woocommerce-page
+    .vamtam-cart-collaterals
+    .coupon
+    button[name="apply_coupon"],
+  html
+    .woocommerce.woocommerce-page
+    .checkout_coupon
+    .button[name="apply_coupon"],
+  html .woocommerce.woocommerce-page #place_order,
+  html
+    .woocommerce.woocommerce-page
+    .woocommerce-form-login
+    .woocommerce-form-login__submit,
+  html .woocommerce.woocommerce-page .woocommerce-Button.button,
+  html .woocommerce.woocommerce-page .woocommerce-button.button,
+  html
+    .woocommerce.woocommerce-page.woocommerce-cart
+    .cross-sells
+    ul.products
+    > li.product
+    .button.add_to_cart_button {
+    font-size: var(--e-global-typography-bb4a0e2-font-size);
+    line-height: var(--e-global-typography-bb4a0e2-line-height);
+    letter-spacing: var(--e-global-typography-bb4a0e2-letter-spacing);
+    word-spacing: var(--e-global-typography-bb4a0e2-word-spacing);
+  }
+  .elementor-kit-4 label {
+    font-size: var(--e-global-typography-vamtam_primary_font-font-size);
+    line-height: var(--e-global-typography-vamtam_primary_font-line-height);
+  }
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1024px;
+  }
+}
+@media (max-width: 767px) {
+  .elementor-kit-4 {
+    --e-global-typography-vamtam_h1-font-size: 50px;
+    --e-global-typography-vamtam_h2-font-size: 40px;
+    --e-global-typography-0d23e54-font-size: 45px;
+    --e-global-typography-b5e5d82-font-size: 18px;
+    font-size: var(--e-global-typography-vamtam_primary_font-font-size);
+    line-height: var(--e-global-typography-vamtam_primary_font-line-height);
+  }
+  .elementor-kit-4 h1 {
+    font-size: var(--e-global-typography-vamtam_h1-font-size);
+    line-height: var(--e-global-typography-vamtam_h1-line-height);
+  }
+  .elementor-kit-4 .font-h1 {
+    font-size: var(--e-global-typography-vamtam_h1-font-size);
+    line-height: var(--e-global-typography-vamtam_h1-line-height);
+  }
+  .elementor-kit-4 h2 {
+    font-size: var(--e-global-typography-vamtam_h2-font-size);
+    line-height: var(--e-global-typography-vamtam_h2-line-height);
+    letter-spacing: var(--e-global-typography-vamtam_h2-letter-spacing);
+  }
+  .elementor-kit-4 .font-h2 {
+    font-size: var(--e-global-typography-vamtam_h2-font-size);
+    line-height: var(--e-global-typography-vamtam_h2-line-height);
+    letter-spacing: var(--e-global-typography-vamtam_h2-letter-spacing);
+  }
+  .elementor-kit-4 h3 {
+    font-size: var(--e-global-typography-vamtam_h3-font-size);
+    line-height: var(--e-global-typography-vamtam_h3-line-height);
+  }
+  .elementor-kit-4 .font-h3 {
+    font-size: var(--e-global-typography-vamtam_h3-font-size);
+    line-height: var(--e-global-typography-vamtam_h3-line-height);
+  }
+  .elementor-kit-4 h4 {
+    font-size: var(--e-global-typography-vamtam_h4-font-size);
+    line-height: var(--e-global-typography-vamtam_h4-line-height);
+  }
+  .elementor-kit-4 .font-h4 {
+    font-size: var(--e-global-typography-vamtam_h4-font-size);
+    line-height: var(--e-global-typography-vamtam_h4-line-height);
+  }
+  .elementor-kit-4 h5 {
+    font-size: var(--e-global-typography-vamtam_h5-font-size);
+    line-height: var(--e-global-typography-vamtam_h5-line-height);
+  }
+  .elementor-kit-4 .font-h5 {
+    font-size: var(--e-global-typography-vamtam_h5-font-size);
+    line-height: var(--e-global-typography-vamtam_h5-line-height);
+  }
+  .elementor-kit-4 h6 {
+    font-size: var(--e-global-typography-vamtam_h6-font-size);
+    line-height: var(--e-global-typography-vamtam_h6-line-height);
+  }
+  .elementor-kit-4 .font-h6 {
+    font-size: var(--e-global-typography-vamtam_h6-font-size);
+    line-height: var(--e-global-typography-vamtam_h6-line-height);
+  }
+  html
+    .woocommerce.woocommerce-page
+    .cart-collaterals
+    .wc-proceed-to-checkout
+    .checkout-button,
+  html
+    .woocommerce.woocommerce-page
+    .vamtam-cart-collaterals
+    .coupon
+    button[name="apply_coupon"],
+  html
+    .woocommerce.woocommerce-page
+    .checkout_coupon
+    .button[name="apply_coupon"],
+  html .woocommerce.woocommerce-page #place_order,
+  html
+    .woocommerce.woocommerce-page
+    .woocommerce-form-login
+    .woocommerce-form-login__submit,
+  html .woocommerce.woocommerce-page .woocommerce-Button.button,
+  html .woocommerce.woocommerce-page .woocommerce-button.button,
+  html
+    .woocommerce.woocommerce-page.woocommerce-cart
+    .cross-sells
+    ul.products
+    > li.product
+    .button.add_to_cart_button {
+    font-size: var(--e-global-typography-bb4a0e2-font-size);
+    line-height: var(--e-global-typography-bb4a0e2-line-height);
+    letter-spacing: var(--e-global-typography-bb4a0e2-letter-spacing);
+    word-spacing: var(--e-global-typography-bb4a0e2-word-spacing);
+  }
+  .elementor-kit-4 label {
+    font-size: var(--e-global-typography-vamtam_primary_font-font-size);
+    line-height: var(--e-global-typography-vamtam_primary_font-line-height);
+  }
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 767px;
+  }
+}

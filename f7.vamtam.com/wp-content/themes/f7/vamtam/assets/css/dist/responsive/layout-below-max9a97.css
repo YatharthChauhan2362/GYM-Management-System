@@ -1,0 +1,805 @@
+.vamtam-font-primary-font {
+  font: var(--vamtam-primary-font-font-style, normal)
+    var(--vamtam-primary-font-font-weight, normal)
+    var(--vamtam-primary-font-font-size-desktop) /
+    var(--vamtam-primary-font-line-height-desktop)
+    var(--vamtam-primary-font-font-family);
+  letter-spacing: var(--vamtam-primary-font-letter-spacing-desktop, normal);
+  text-transform: var(--vamtam-primary-font-transform, none);
+  -webkit-text-decoration: var(--vamtam-primary-font-decoration, none);
+  text-decoration: var(--vamtam-primary-font-decoration, none);
+}
+.vamtam-font-primary-font-tablet {
+  font: var(--vamtam-primary-font-font-style, normal)
+    var(--vamtam-primary-font-font-weight, normal)
+    var(--vamtam-primary-font-font-size-tablet) /
+    var(--vamtam-primary-font-line-height-tablet)
+    var(--vamtam-primary-font-font-family);
+  letter-spacing: var(--vamtam-primary-font-letter-spacing-tablet, normal);
+  text-transform: var(--vamtam-primary-font-transform, none);
+  -webkit-text-decoration: var(--vamtam-primary-font-decoration, none);
+  text-decoration: var(--vamtam-primary-font-decoration, none);
+}
+.vamtam-font-primary-font-phone {
+  font: var(--vamtam-primary-font-font-style, normal)
+    var(--vamtam-primary-font-font-weight, normal)
+    var(--vamtam-primary-font-font-size-phone) /
+    var(--vamtam-primary-font-line-height-phone)
+    var(--vamtam-primary-font-font-family);
+  letter-spacing: var(--vamtam-primary-font-letter-spacing-phone, normal);
+  text-transform: var(--vamtam-primary-font-transform, none);
+  -webkit-text-decoration: var(--vamtam-primary-font-decoration, none);
+  text-decoration: var(--vamtam-primary-font-decoration, none);
+}
+.vamtam-font-h1 {
+  font: var(--vamtam-h1-font-style, normal) var(--vamtam-h1-font-weight, normal)
+    var(--vamtam-h1-font-size-desktop) / var(--vamtam-h1-line-height-desktop)
+    var(--vamtam-h1-font-family);
+  letter-spacing: var(--vamtam-h1-letter-spacing-desktop, normal);
+  text-transform: var(--vamtam-h1-transform, none);
+  -webkit-text-decoration: var(--vamtam-h1-decoration, none);
+  text-decoration: var(--vamtam-h1-decoration, none);
+}
+.vamtam-font-h1-tablet {
+  font: var(--vamtam-h1-font-style, normal) var(--vamtam-h1-font-weight, normal)
+    var(--vamtam-h1-font-size-tablet) / var(--vamtam-h1-line-height-tablet)
+    var(--vamtam-h1-font-family);
+  letter-spacing: var(--vamtam-h1-letter-spacing-tablet, normal);
+  text-transform: var(--vamtam-h1-transform, none);
+  -webkit-text-decoration: var(--vamtam-h1-decoration, none);
+  text-decoration: var(--vamtam-h1-decoration, none);
+}
+.vamtam-font-h1-phone {
+  font: var(--vamtam-h1-font-style, normal) var(--vamtam-h1-font-weight, normal)
+    var(--vamtam-h1-font-size-phone) / var(--vamtam-h1-line-height-phone)
+    var(--vamtam-h1-font-family);
+  letter-spacing: var(--vamtam-h1-letter-spacing-phone, normal);
+  text-transform: var(--vamtam-h1-transform, none);
+  -webkit-text-decoration: var(--vamtam-h1-decoration, none);
+  text-decoration: var(--vamtam-h1-decoration, none);
+}
+.vamtam-font-h2 {
+  font: var(--vamtam-h2-font-style, normal) var(--vamtam-h2-font-weight, normal)
+    var(--vamtam-h2-font-size-desktop) / var(--vamtam-h2-line-height-desktop)
+    var(--vamtam-h2-font-family);
+  letter-spacing: var(--vamtam-h2-letter-spacing-desktop, normal);
+  text-transform: var(--vamtam-h2-transform, none);
+  -webkit-text-decoration: var(--vamtam-h2-decoration, none);
+  text-decoration: var(--vamtam-h2-decoration, none);
+}
+.vamtam-font-h2-tablet {
+  font: var(--vamtam-h2-font-style, normal) var(--vamtam-h2-font-weight, normal)
+    var(--vamtam-h2-font-size-tablet) / var(--vamtam-h2-line-height-tablet)
+    var(--vamtam-h2-font-family);
+  letter-spacing: var(--vamtam-h2-letter-spacing-tablet, normal);
+  text-transform: var(--vamtam-h2-transform, none);
+  -webkit-text-decoration: var(--vamtam-h2-decoration, none);
+  text-decoration: var(--vamtam-h2-decoration, none);
+}
+.vamtam-font-h2-phone {
+  font: var(--vamtam-h2-font-style, normal) var(--vamtam-h2-font-weight, normal)
+    var(--vamtam-h2-font-size-phone) / var(--vamtam-h2-line-height-phone)
+    var(--vamtam-h2-font-family);
+  letter-spacing: var(--vamtam-h2-letter-spacing-phone, normal);
+  text-transform: var(--vamtam-h2-transform, none);
+  -webkit-text-decoration: var(--vamtam-h2-decoration, none);
+  text-decoration: var(--vamtam-h2-decoration, none);
+}
+.vamtam-font-h3 {
+  font: var(--vamtam-h3-font-style, normal) var(--vamtam-h3-font-weight, normal)
+    var(--vamtam-h3-font-size-desktop) / var(--vamtam-h3-line-height-desktop)
+    var(--vamtam-h3-font-family);
+  letter-spacing: var(--vamtam-h3-letter-spacing-desktop, normal);
+  text-transform: var(--vamtam-h3-transform, none);
+  -webkit-text-decoration: var(--vamtam-h3-decoration, none);
+  text-decoration: var(--vamtam-h3-decoration, none);
+}
+.vamtam-font-h3-tablet {
+  font: var(--vamtam-h3-font-style, normal) var(--vamtam-h3-font-weight, normal)
+    var(--vamtam-h3-font-size-tablet) / var(--vamtam-h3-line-height-tablet)
+    var(--vamtam-h3-font-family);
+  letter-spacing: var(--vamtam-h3-letter-spacing-tablet, normal);
+  text-transform: var(--vamtam-h3-transform, none);
+  -webkit-text-decoration: var(--vamtam-h3-decoration, none);
+  text-decoration: var(--vamtam-h3-decoration, none);
+}
+.vamtam-font-h3-phone {
+  font: var(--vamtam-h3-font-style, normal) var(--vamtam-h3-font-weight, normal)
+    var(--vamtam-h3-font-size-phone) / var(--vamtam-h3-line-height-phone)
+    var(--vamtam-h3-font-family);
+  letter-spacing: var(--vamtam-h3-letter-spacing-phone, normal);
+  text-transform: var(--vamtam-h3-transform, none);
+  -webkit-text-decoration: var(--vamtam-h3-decoration, none);
+  text-decoration: var(--vamtam-h3-decoration, none);
+}
+.vamtam-font-h4 {
+  font: var(--vamtam-h4-font-style, normal) var(--vamtam-h4-font-weight, normal)
+    var(--vamtam-h4-font-size-desktop) / var(--vamtam-h4-line-height-desktop)
+    var(--vamtam-h4-font-family);
+  letter-spacing: var(--vamtam-h4-letter-spacing-desktop, normal);
+  text-transform: var(--vamtam-h4-transform, none);
+  -webkit-text-decoration: var(--vamtam-h4-decoration, none);
+  text-decoration: var(--vamtam-h4-decoration, none);
+}
+.vamtam-font-h4-tablet {
+  font: var(--vamtam-h4-font-style, normal) var(--vamtam-h4-font-weight, normal)
+    var(--vamtam-h4-font-size-tablet) / var(--vamtam-h4-line-height-tablet)
+    var(--vamtam-h4-font-family);
+  letter-spacing: var(--vamtam-h4-letter-spacing-tablet, normal);
+  text-transform: var(--vamtam-h4-transform, none);
+  -webkit-text-decoration: var(--vamtam-h4-decoration, none);
+  text-decoration: var(--vamtam-h4-decoration, none);
+}
+.vamtam-font-h4-phone {
+  font: var(--vamtam-h4-font-style, normal) var(--vamtam-h4-font-weight, normal)
+    var(--vamtam-h4-font-size-phone) / var(--vamtam-h4-line-height-phone)
+    var(--vamtam-h4-font-family);
+  letter-spacing: var(--vamtam-h4-letter-spacing-phone, normal);
+  text-transform: var(--vamtam-h4-transform, none);
+  -webkit-text-decoration: var(--vamtam-h4-decoration, none);
+  text-decoration: var(--vamtam-h4-decoration, none);
+}
+.vamtam-font-h5 {
+  font: var(--vamtam-h5-font-style, normal) var(--vamtam-h5-font-weight, normal)
+    var(--vamtam-h5-font-size-desktop) / var(--vamtam-h5-line-height-desktop)
+    var(--vamtam-h5-font-family);
+  letter-spacing: var(--vamtam-h5-letter-spacing-desktop, normal);
+  text-transform: var(--vamtam-h5-transform, none);
+  -webkit-text-decoration: var(--vamtam-h5-decoration, none);
+  text-decoration: var(--vamtam-h5-decoration, none);
+}
+.vamtam-font-h5-tablet {
+  font: var(--vamtam-h5-font-style, normal) var(--vamtam-h5-font-weight, normal)
+    var(--vamtam-h5-font-size-tablet) / var(--vamtam-h5-line-height-tablet)
+    var(--vamtam-h5-font-family);
+  letter-spacing: var(--vamtam-h5-letter-spacing-tablet, normal);
+  text-transform: var(--vamtam-h5-transform, none);
+  -webkit-text-decoration: var(--vamtam-h5-decoration, none);
+  text-decoration: var(--vamtam-h5-decoration, none);
+}
+.vamtam-font-h5-phone {
+  font: var(--vamtam-h5-font-style, normal) var(--vamtam-h5-font-weight, normal)
+    var(--vamtam-h5-font-size-phone) / var(--vamtam-h5-line-height-phone)
+    var(--vamtam-h5-font-family);
+  letter-spacing: var(--vamtam-h5-letter-spacing-phone, normal);
+  text-transform: var(--vamtam-h5-transform, none);
+  -webkit-text-decoration: var(--vamtam-h5-decoration, none);
+  text-decoration: var(--vamtam-h5-decoration, none);
+}
+.vamtam-font-h6 {
+  font: var(--vamtam-h6-font-style, normal) var(--vamtam-h6-font-weight, normal)
+    var(--vamtam-h6-font-size-desktop) / var(--vamtam-h6-line-height-desktop)
+    var(--vamtam-h6-font-family);
+  letter-spacing: var(--vamtam-h6-letter-spacing-desktop, normal);
+  text-transform: var(--vamtam-h6-transform, none);
+  -webkit-text-decoration: var(--vamtam-h6-decoration, none);
+  text-decoration: var(--vamtam-h6-decoration, none);
+}
+.vamtam-font-h6-tablet {
+  font: var(--vamtam-h6-font-style, normal) var(--vamtam-h6-font-weight, normal)
+    var(--vamtam-h6-font-size-tablet) / var(--vamtam-h6-line-height-tablet)
+    var(--vamtam-h6-font-family);
+  letter-spacing: var(--vamtam-h6-letter-spacing-tablet, normal);
+  text-transform: var(--vamtam-h6-transform, none);
+  -webkit-text-decoration: var(--vamtam-h6-decoration, none);
+  text-decoration: var(--vamtam-h6-decoration, none);
+}
+.vamtam-font-h6-phone {
+  font: var(--vamtam-h6-font-style, normal) var(--vamtam-h6-font-weight, normal)
+    var(--vamtam-h6-font-size-phone) / var(--vamtam-h6-line-height-phone)
+    var(--vamtam-h6-font-family);
+  letter-spacing: var(--vamtam-h6-letter-spacing-phone, normal);
+  text-transform: var(--vamtam-h6-transform, none);
+  -webkit-text-decoration: var(--vamtam-h6-decoration, none);
+  text-decoration: var(--vamtam-h6-decoration, none);
+}
+body.responsive-layout {
+  --vamtam-content-space-l: 25px;
+  --vamtam-primary-font-font-size-desktop: var(
+    --vamtam-primary-font-font-size-tablet
+  );
+  --vamtam-primary-font-line-height-desktop: var(
+    --vamtam-primary-font-line-height-tablet
+  );
+  --vamtam-primary-font-letter-spacing-desktop: var(
+    --vamtam-primary-font-letter-spacing-tablet,
+    normal
+  );
+  --vamtam-h1-font-size-desktop: var(--vamtam-h1-font-size-tablet);
+  --vamtam-h1-line-height-desktop: var(--vamtam-h1-line-height-tablet);
+  --vamtam-h1-letter-spacing-desktop: var(
+    --vamtam-h1-letter-spacing-tablet,
+    normal
+  );
+  --vamtam-h2-font-size-desktop: var(--vamtam-h2-font-size-tablet);
+  --vamtam-h2-line-height-desktop: var(--vamtam-h2-line-height-tablet);
+  --vamtam-h2-letter-spacing-desktop: var(
+    --vamtam-h2-letter-spacing-tablet,
+    normal
+  );
+  --vamtam-h3-font-size-desktop: var(--vamtam-h3-font-size-tablet);
+  --vamtam-h3-line-height-desktop: var(--vamtam-h3-line-height-tablet);
+  --vamtam-h3-letter-spacing-desktop: var(
+    --vamtam-h3-letter-spacing-tablet,
+    normal
+  );
+  --vamtam-h4-font-size-desktop: var(--vamtam-h4-font-size-tablet);
+  --vamtam-h4-line-height-desktop: var(--vamtam-h4-line-height-tablet);
+  --vamtam-h4-letter-spacing-desktop: var(
+    --vamtam-h4-letter-spacing-tablet,
+    normal
+  );
+  --vamtam-h5-font-size-desktop: var(--vamtam-h5-font-size-tablet);
+  --vamtam-h5-line-height-desktop: var(--vamtam-h5-line-height-tablet);
+  --vamtam-h5-letter-spacing-desktop: var(
+    --vamtam-h5-letter-spacing-tablet,
+    normal
+  );
+  --vamtam-h6-font-size-desktop: var(--vamtam-h6-font-size-tablet);
+  --vamtam-h6-line-height-desktop: var(--vamtam-h6-line-height-tablet);
+  --vamtam-h6-letter-spacing-desktop: var(
+    --vamtam-h6-letter-spacing-tablet,
+    normal
+  );
+  --vamtam-em-font-size-desktop: var(--vamtam-em-font-size-tablet);
+  --vamtam-em-line-height-desktop: var(--vamtam-em-line-height-tablet);
+  --vamtam-em-letter-spacing-desktop: var(
+    --vamtam-em-letter-spacing-tablet,
+    normal
+  );
+}
+body.responsive-layout .alignfull.wp-block-columns,
+body.responsive-layout .alignwide.wp-block-columns {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+body.responsive-layout #scroll-to-top {
+  bottom: 20px;
+}
+body.responsive-layout.error404 .vamtam-main {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+body.responsive-layout.error404 .vamtam-main #header-404 .line-2 {
+  display: none;
+}
+body.responsive-layout .vamtam-main:not(.layout-full) .limit-wrapper,
+body.responsive-layout
+  .vamtam-main:not(.layout-full)
+  .vamtam-box-outer-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+body.responsive-layout.woocommerce.single:not(.layout-full)
+  .page-wrapper
+  > article:last-child
+  > .page-content:last-child,
+body.responsive-layout:not(.elementor-page):not(.layout-full)
+  .page-wrapper
+  > article:last-child
+  > .page-content:last-child {
+  padding-bottom: 80px;
+}
+body.responsive-layout.vamtam-limited-layout:not(.has-page-header).archive
+  article
+  > .page-content,
+body.responsive-layout.vamtam-limited-layout:not(.has-page-header).single-jetpack-portfolio
+  article
+  > .page-content,
+body.responsive-layout.vamtam-limited-layout:not(.has-page-header).woocommerce
+  article
+  > .page-content,
+body.responsive-layout.vamtam-limited-layout:not(.has-page-header):not(.elementor-page)
+  article
+  > .page-content {
+  padding-top: 30px;
+}
+body.responsive-layout.has-page-header:not(.fl-builder)
+  article
+  > .page-content
+  .meta-top {
+  padding-top: 0;
+}
+body.responsive-layout .page-wrapper > .vamtam-body-sidebar,
+body.responsive-layout .vamtam-main:not(.layout-full) .vamtam-related-content,
+body.responsive-layout header.main-header .header-padding,
+body.responsive-layout:not(.vamtam-is-elementor)
+  .vamtam-main:not(.layout-full)
+  article {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+body.responsive-layout .limit-wrapper .limit-wrapper {
+  padding: 0;
+}
+body.responsive-layout .vamtam-expand-scroll-content {
+  width: auto !important;
+}
+body.responsive-layout .vamtam-main:not(.layout-full) .comments-wrapper {
+  margin-bottom: 80px;
+  padding-left: 0;
+  padding-right: 0;
+}
+body.responsive-layout #main.layout-full .comments-wrapper {
+  max-width: 100%;
+}
+body.responsive-layout .comments-wrapper label {
+  padding-left: 0;
+}
+body.responsive-layout #commentform p {
+  margin-left: 0 !important;
+}
+body.responsive-layout #commentform .comment-form-cookies-consent > input {
+  align-self: flex-start;
+}
+body.responsive-layout #commentform .comment-form-cookies-consent > label {
+  margin-top: -0.2em;
+}
+body.responsive-layout.page-template-guestbook-php #comments-list {
+  margin-bottom: 30px;
+}
+body.responsive-layout.page-template-guestbook-php .limit-wrapper {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+body.responsive-layout.page-template-guestbook-php #commentform {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+body.responsive-layout.page-template-guestbook-php .respond-box {
+  padding: 10px;
+}
+body.responsive-layout.page-template-guestbook-php .respond-box #reply-title {
+  display: none;
+}
+body.responsive-layout #commentform .form-submit {
+  float: none;
+}
+body.responsive-layout .comment-notes {
+  padding-bottom: 20px;
+  clear: both;
+}
+body.responsive-layout .comments .comment-meta-left,
+body.responsive-layout .woocommerce #reviews #comments .comment-meta-left {
+  flex-flow: column;
+  align-items: flex-start;
+  max-width: 60%;
+}
+body.responsive-layout .comments .comment-meta-left .comment-time,
+body.responsive-layout
+  .woocommerce
+  #reviews
+  #comments
+  .comment-meta-left
+  .comment-time {
+  border-left: 0;
+  padding-left: 0;
+}
+body.responsive-layout .comments .comment-author,
+body.responsive-layout .woocommerce #reviews #comments .comment-author {
+  flex: 0 1 30px;
+}
+body.responsive-layout .comments .avatar,
+body.responsive-layout .woocommerce #reviews #comments .avatar {
+  max-width: 30px !important;
+}
+body.responsive-layout .comments .comment,
+body.responsive-layout .woocommerce #reviews #comments .comment {
+  min-height: inherit;
+}
+body.responsive-layout .comments .comment .comment,
+body.responsive-layout .woocommerce #reviews #comments .comment .comment {
+  padding-left: 0;
+  margin-left: 15px;
+  padding-top: 15px;
+}
+body.responsive-layout .comments .comment .comment .comment-content,
+body.responsive-layout
+  .woocommerce
+  #reviews
+  #comments
+  .comment
+  .comment
+  .comment-content {
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+body.responsive-layout #quantity input.qty,
+body.responsive-layout .quantity input.qty {
+  padding: 5px;
+}
+body.responsive-layout .error-message {
+  display: none;
+}
+body.responsive-layout html {
+  background-image: none;
+}
+body.responsive-layout .move-into-slider .icon.shortcode.box {
+  padding: 0.1em;
+}
+body.responsive-layout .move-into-slider {
+  margin-top: 0;
+}
+body.responsive-layout aside.left {
+  order: 3;
+}
+body.responsive-layout .vamtam-body-sidebar {
+  margin-top: 0 !important;
+}
+body.responsive-layout .page-wrapper > article,
+body.responsive-layout .vamtam-body-sidebar {
+  width: auto;
+  max-width: none;
+  flex: 0 1 auto;
+}
+body.responsive-layout .page-wrapper {
+  flex-direction: column;
+}
+body.responsive-layout aside .menu-item > .sub-menu {
+  display: none !important;
+}
+body.responsive-layout .vamtam-woocommerce-cart-form-wrapper {
+  flex-direction: column;
+}
+body.responsive-layout
+  .vamtam-woocommerce-cart-form-wrapper
+  .vamtam-cart-collaterals {
+  flex-basis: auto;
+  padding: 0 !important;
+}
+body.responsive-layout.woocommerce.woocommerce-cart .elementor-inner,
+body.responsive-layout.woocommerce.woocommerce-cart .elementor-section-wrap {
+  background-color: var(--vamtam-accent-color-7);
+}
+body.responsive-layout.woocommerce.woocommerce-cart .cross-sells ul.products {
+  grid-template-columns: repeat(2, 1fr);
+}
+body.responsive-layout.woocommerce.woocommerce-cart .vamtam-cart-main {
+  padding: 0;
+}
+body.responsive-layout.woocommerce.woocommerce-cart
+  .vamtam-cart-main
+  > .vamtam-cart__header,
+body.responsive-layout.woocommerce.woocommerce-cart
+  .vamtam-cart-main
+  > .woocommerce-cart-form__contents
+  .cart_item {
+  padding-right: 0;
+  padding-left: 0;
+}
+body.responsive-layout.single-post .single-post-wrapper .post-media {
+  margin-left: 0;
+  margin-right: 0;
+}
+body.responsive-layout.single-post
+  .single-post-wrapper
+  .post-media
+  .media-inner {
+  position: relative;
+  display: block;
+  min-height: 20px;
+  max-width: 900px;
+}
+body.responsive-layout.single-post .single-post-wrapper .meta-top {
+  flex-flow: column;
+  max-width: 100%;
+}
+body.responsive-layout.single-post
+  .single-post-wrapper
+  .meta-top
+  .meta-left.has-author {
+  grid-template-columns: auto;
+}
+body.responsive-layout.single-post
+  .single-post-wrapper
+  .meta-top
+  .meta-left
+  > div {
+  padding: 0;
+}
+body.responsive-layout.single-post
+  .single-post-wrapper
+  .meta-top
+  .meta-left
+  > div:only-of-type {
+  align-self: flex-start !important;
+}
+body.responsive-layout.single-post .single-post-wrapper .meta-top .meta-right {
+  padding-top: 10px;
+}
+body.responsive-layout.single-post .single-post-wrapper .meta-top .avatar {
+  display: none;
+}
+body.responsive-layout.single-post
+  .single-post-wrapper
+  .meta-top
+  .meta-left-top {
+  grid-column: span 2 / auto;
+}
+body.responsive-layout.single-post .single-post-wrapper p {
+  margin: 10px 0 20px;
+}
+body.responsive-layout .page-header h1 a {
+  font-size: 100%;
+}
+body.responsive-layout #sub-header {
+  position: relative;
+  z-index: 2;
+}
+body.responsive-layout #sub-header header.page-header {
+  flex-direction: column;
+  text-align: left;
+}
+body.responsive-layout #sub-header header.page-header .desc {
+  margin: 0;
+}
+body.responsive-layout #sub-header .meta-header {
+  background-attachment: scroll !important;
+}
+body.responsive-layout #sub-header .meta-header-inside {
+  position: relative;
+  text-align: left !important;
+}
+body.responsive-layout #sub-header .meta-header-inside .desc {
+  font-size: 100%;
+}
+body.responsive-layout #sub-header .meta-header-inside .vamtam-meta-tax,
+body.responsive-layout #sub-header .meta-header-inside .vamtam-meta-tax a {
+  margin-bottom: 0;
+}
+body.responsive-layout.woocommerce-page.post-type-archive-product
+  #sub-header
+  header.page-header {
+  text-align: center;
+}
+body.responsive-layout .respond-box {
+  margin-top: 0;
+}
+body.responsive-layout .respond-box .respond-box-title {
+  padding-left: 0;
+  padding-right: 0;
+}
+body.responsive-layout .loop-wrapper.regular .post-media {
+  order: -1;
+  flex-basis: 100%;
+  padding-right: 0;
+}
+body.responsive-layout .loop-wrapper.regular .list-item {
+  width: 100% !important;
+}
+body.responsive-layout .loop-wrapper.regular .list-item h3 {
+  margin-bottom: 15px;
+}
+body.responsive-layout .loop-wrapper.regular .post-article .post-media {
+  float: none;
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+body.responsive-layout .loop-wrapper.regular .post-article .post-media img {
+  max-width: 100%;
+}
+body.responsive-layout
+  .loop-wrapper.regular
+  .post-article
+  .post-content-outer.single-post {
+  padding-left: 0;
+}
+body.responsive-layout
+  .loop-wrapper.regular
+  .post-article
+  .post-content-outer
+  .post-meta
+  div {
+  border: none;
+}
+body.responsive-layout
+  .loop-wrapper.regular
+  .post-article
+  .post-content-outer
+  .post-meta
+  div.blog-buttons
+  a:after {
+  display: none;
+}
+body.responsive-layout .sep-text:not(.keep-always) .content {
+  display: block;
+  white-space: normal;
+}
+body.responsive-layout .vamtam-hide-lowres {
+  display: none;
+}
+body.responsive-layout .wp-caption.alignleft {
+  margin-left: 0;
+}
+body.responsive-layout .page-wrapper > aside {
+  max-width: 100%;
+  width: auto;
+}
+body.responsive-layout
+  .wpforms-container.vamtam-one-row
+  .wpforms-field-container,
+body.responsive-layout .wpforms-container.vamtam-one-row .wpforms-form {
+  flex-direction: column;
+}
+body.responsive-layout .vamtam-cart-main .vamtam-cart__header {
+  margin-bottom: 10px;
+}
+body.responsive-layout .vamtam-cart-main > .vamtam-cart__header,
+body.responsive-layout
+  .vamtam-cart-main
+  > .woocommerce-cart-form__contents
+  .cart_item {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+body.responsive-layout .vamtam-cart-main .cart_item {
+  grid-template-rows: auto;
+  grid-template-columns: -webkit-max-content 60% minmax(20%, auto);
+  grid-template-columns: max-content 60% minmax(20%, auto);
+}
+body.responsive-layout .vamtam-cart-main .product-thumbnail {
+  grid-row: 1/3;
+}
+body.responsive-layout .vamtam-cart-main .product-thumbnail > a,
+body.responsive-layout .vamtam-cart-main .product-thumbnail > a > img {
+  display: block;
+}
+body.responsive-layout .vamtam-cart-main .product-remove {
+  align-self: flex-end;
+  grid-column: 3/4;
+}
+body.responsive-layout .vamtam-cart-main .product-price {
+  grid-column: 3/4;
+}
+body.responsive-layout .vamtam-cart-main .product-price:before {
+  display: none;
+}
+body.responsive-layout.woocommerce-checkout .woocommerce form .form-row {
+  padding: 0;
+}
+body.responsive-layout.woocommerce-checkout.vamtam-is-elementor
+  .elementor-column-gap-default
+  > .elementor-row
+  > .elementor-column
+  > .elementor-element-populated {
+  padding-left: 0;
+  padding-right: 0;
+}
+body.responsive-layout.woocommerce-checkout .woocommerce-notices-wrapper {
+  padding-top: 0;
+  margin-top: 0;
+}
+body.responsive-layout.woocommerce-checkout
+  form.woocommerce-checkout
+  .woocommerce-billing-fields
+  > h3 {
+  margin-top: 0;
+}
+body.responsive-layout.woocommerce-checkout .meta-header-inside {
+  height: auto !important;
+  padding: 0 !important;
+}
+body.responsive-layout.woocommerce-checkout
+  .meta-header-inside
+  > .page-header
+  > h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body.responsive-layout .checkout-breadcrumb {
+  margin: 30px 0;
+}
+body.responsive-layout
+  .elementor-field-group:not(.elementor-field-type-upload)
+  .elementor-field:not(.elementor-select-wrapper) {
+  margin: 0;
+}
+body.responsive-layout .vamtam-prevent-scroll-jumps {
+  display: none;
+}
+body.responsive-layout.woocommerce div.product .woocommerce-tabs .panel {
+  padding-left: 0;
+  padding-right: 0;
+}
+body.responsive-layout.woocommerce.woocommerce-account .limit-wrapper,
+body.responsive-layout.woocommerce.woocommerce-cart .limit-wrapper,
+body.responsive-layout.woocommerce.woocommerce-checkout .limit-wrapper {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+body.admin-bar.dialog-prevent-scroll {
+  max-height: calc(100vh - 46px);
+}
+.elementor-widget-icon-box.vamtam-el-widget-icon-box-flex.elementor-position-left
+  .elementor-icon-box-icon,
+.elementor-widget-icon-box.vamtam-el-widget-icon-box-flex.elementor-position-right
+  .elementor-icon-box-icon {
+  margin-bottom: 0;
+}
+.elementor-widget-tabs.vamtam-has-numbering-bg
+  .elementor-tabs
+  .elementor-tab-mobile-title {
+  display: none;
+}
+.elementor-widget-wc-archive-products.elementor-element.elementor-widget
+  .products.vamtam-wc {
+  grid-template-columns: 1fr 1fr;
+}
+.elementor-widget-woocommerce-products .table-layout {
+  display: flex;
+  flex-direction: column;
+}
+.elementor-widget-woocommerce-products .table-layout .product {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+.elementor-widget-woocommerce-products .table-layout .product td {
+  text-align: center;
+}
+.elementor-widget-woocommerce-products .table-layout .product td:first-child {
+  grid-area: 1/1/2/3;
+}
+.elementor-widget-woocommerce-products .table-layout .product td:nth-child(2) {
+  grid-area: 1/3/2/5;
+}
+.elementor-widget-woocommerce-products .table-layout .product td:nth-child(3) {
+  grid-area: 2/1/3/3;
+}
+.elementor-widget-woocommerce-products .table-layout .product td:last-child {
+  grid-area: 2/3/3/5;
+}
+.elementor-widget-form
+  .elementor-field-type-checkbox
+  .elementor-field-subgroup.elementor-subgroup-inline {
+  grid-template-columns: repeat(2, 1fr);
+}
+.elementor-widget-woocommerce-menu-cart.elementor-menu-cart--buttons-tablet-inline
+  .elementor-menu-cart__footer-buttons {
+  grid-template-columns: 1fr 1fr;
+}
+.elementor-widget-woocommerce-menu-cart.elementor-menu-cart--buttons-tablet-stacked
+  .elementor-menu-cart__footer-buttons {
+  grid-template-columns: 1fr;
+}
+.elementor-widget-woocommerce-menu-cart > .vamtam-elementor-menu-cart__header,
+.elementor-widget-woocommerce-menu-cart
+  > .widget_shopping_cart_content
+  .cart_item,
+.elementor-widget-woocommerce-menu-cart
+  > .widget_shopping_cart_content
+  > :not(.woocommerce-cart-form__contents) {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.elementor-menu-toggle {
+  outline: 0 !important;
+}
+.elementor-widget-woocommerce-product-add-to-cart.elementor-add-to-cart-tablet--align-justify
+  .added_to_cart {
+  flex-basis: 100%;
+}
+.elementor-widget-woocommerce-product-images img.zoomImg {
+  display: none !important;
+}
+.elementor-widget-woocommerce-product-images
+  .woocommerce-product-gallery__image,
+.elementor-widget-woocommerce-product-images
+  .woocommerce-product-gallery__image
+  a,
+.elementor-widget-woocommerce-product-images
+  .woocommerce-product-gallery__image
+  img {
+  pointer-events: none !important;
+}
+.elementor-widget-archive-posts.vamtam-has-theme-content-style.elementor-posts--thumbnail-top
+  .elementor-post__text,
+.elementor-widget-posts.vamtam-has-theme-content-style.elementor-posts--thumbnail-top
+  .elementor-post__text {
+  padding: 40px;
+}

@@ -1,0 +1,55 @@
+{
+  "id": 9,
+  "date": "2020-12-10T10:42:46",
+  "date_gmt": "2020-12-10T10:42:46",
+  "guid": { "rendered": "https://f7.vamtam.com/checkout/" },
+  "modified": "2020-12-10T10:42:46",
+  "modified_gmt": "2020-12-10T10:42:46",
+  "slug": "checkout",
+  "status": "publish",
+  "type": "page",
+  "link": "https://f7.vamtam.com/checkout/",
+  "title": { "rendered": "Checkout" },
+  "content": {
+    "rendered": "<div class=\"vgblk-rw-wrapper limit-wrapper\"><div class=\"woocommerce\"></div>\n</div><!-- .vgblk-rw-wrapper -->",
+    "protected": false
+  },
+  "excerpt": { "rendered": "", "protected": false },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": [],
+  "_links": {
+    "self": [{ "href": "https://f7.vamtam.com/wp-json/wp/v2/pages/9" }],
+    "collection": [{ "href": "https://f7.vamtam.com/wp-json/wp/v2/pages" }],
+    "about": [{ "href": "https://f7.vamtam.com/wp-json/wp/v2/types/page" }],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://f7.vamtam.com/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://f7.vamtam.com/wp-json/wp/v2/comments?post=9"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://f7.vamtam.com/wp-json/wp/v2/pages/9/revisions"
+      }
+    ],
+    "wp:attachment": [
+      { "href": "https://f7.vamtam.com/wp-json/wp/v2/media?parent=9" }
+    ],
+    "curies": [
+      { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+    ]
+  }
+}

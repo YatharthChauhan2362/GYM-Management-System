@@ -1,0 +1,77 @@
+{
+  "id": 6231,
+  "date": "2021-02-07T15:33:57",
+  "date_gmt": "2021-02-07T15:33:57",
+  "guid": {
+    "rendered": "https://f7.vamtam.com/?post_type=product&#038;p=6231"
+  },
+  "modified": "2021-03-09T20:59:45",
+  "modified_gmt": "2021-03-09T20:59:45",
+  "slug": "protein-shake-fruity",
+  "status": "publish",
+  "type": "product",
+  "link": "https://f7.vamtam.com/product/protein-shake-fruity/",
+  "title": { "rendered": "Protein Shake Fruity" },
+  "content": {
+    "rendered": "<div class=\"vgblk-rw-wrapper limit-wrapper\">BPA &amp; BY-PRODUCT FREE- The stainless steel will allow you to avoid BPA and Plastic By-Products found is so many bottles today. The Hydro Cell ensures your reusable water bottle avoid the polymers, plasticizers and other synthetic elements found in other bottles. ENGINEERED TO KEEP LIQUIDS PERFECTLY COLD OR HOT</p>\n<p>&nbsp;</p>\n<p>The water bottle comes double walled and vacuum sealed to make sure you experience zero condensation and the temperatures of your beverages last in an insulated chamber. Cold liquids stay cold for 24 hours, and hot liquids will stay piping hot for up to 8 hours making it the perfect sports or commuting bottle. Our manufacturing process has been innovated to ensure your bottle NEVER sweats or leaks.</p></div>\n<p><!-- .vgblk-rw-wrapper --></p>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>NEW Protein Shake/Fruity flavour. Athletes everywhere are shouting YABBA DABBA DOO! with the launch of two new Dymatize ISO100 protein powder flavors \u2013 Fruity Pebbles and Cocoa Pebbles</p>\n<p>Hydrolyzed whey protein isolate, whey protein isolate, natural and artificial flavors. Less than 1% of: edible glitter (gum arabic, FD&amp;C red #3, FD&amp;C red #40, FD&amp;C blue #1, FD&amp;C yellow #5), salt, soy lecithin, sucralose, steviol glycosides (stevia)</p>\n",
+    "protected": false
+  },
+  "featured_media": 14697,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": [],
+  "product_cat": [49, 51],
+  "product_tag": [59, 52, 58, 54],
+  "_links": {
+    "self": [{ "href": "https://f7.vamtam.com/wp-json/wp/v2/product/6231" }],
+    "collection": [{ "href": "https://f7.vamtam.com/wp-json/wp/v2/product" }],
+    "about": [{ "href": "https://f7.vamtam.com/wp-json/wp/v2/types/product" }],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://f7.vamtam.com/wp-json/wp/v2/comments?post=6231"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 3,
+        "href": "https://f7.vamtam.com/wp-json/wp/v2/product/6231/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 14753,
+        "href": "https://f7.vamtam.com/wp-json/wp/v2/product/6231/revisions/14753"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://f7.vamtam.com/wp-json/wp/v2/media/14697"
+      }
+    ],
+    "wp:attachment": [
+      { "href": "https://f7.vamtam.com/wp-json/wp/v2/media?parent=6231" }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "product_cat",
+        "embeddable": true,
+        "href": "https://f7.vamtam.com/wp-json/wp/v2/product_cat?post=6231"
+      },
+      {
+        "taxonomy": "product_tag",
+        "embeddable": true,
+        "href": "https://f7.vamtam.com/wp-json/wp/v2/product_tag?post=6231"
+      }
+    ],
+    "curies": [
+      { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+    ]
+  }
+}

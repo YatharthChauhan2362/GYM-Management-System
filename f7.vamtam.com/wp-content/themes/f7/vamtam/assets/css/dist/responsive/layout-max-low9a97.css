@@ -1,0 +1,5 @@
+.responsive-layout .layout-left-only .loop-wrapper.regular .post-media,
+.responsive-layout .layout-right-only .loop-wrapper.regular .post-media {
+  flex-basis: 100%;
+  margin-bottom: var(--vamtam-vertical-padding);
+}

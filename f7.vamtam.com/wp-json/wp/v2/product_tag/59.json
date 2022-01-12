@@ -1,0 +1,25 @@
+{
+  "id": 59,
+  "count": 7,
+  "description": "",
+  "link": "https://f7.vamtam.com/product-tag/drink/",
+  "name": "Drink",
+  "slug": "drink",
+  "taxonomy": "product_tag",
+  "meta": [],
+  "_links": {
+    "self": [{ "href": "https://f7.vamtam.com/wp-json/wp/v2/product_tag/59" }],
+    "collection": [
+      { "href": "https://f7.vamtam.com/wp-json/wp/v2/product_tag" }
+    ],
+    "about": [
+      { "href": "https://f7.vamtam.com/wp-json/wp/v2/taxonomies/product_tag" }
+    ],
+    "wp:post_type": [
+      { "href": "https://f7.vamtam.com/wp-json/wp/v2/product?product_tag=59" }
+    ],
+    "curies": [
+      { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+    ]
+  }
+}

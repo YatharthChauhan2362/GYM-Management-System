@@ -1,0 +1,161 @@
+.elementor-3 .elementor-element.elementor-element-0bcbb7d {
+  margin-top: 45px;
+  margin-bottom: 65px;
+}
+.elementor-3 .elementor-element.elementor-element-9fa5ba0 {
+  text-align: center;
+}
+.elementor-3
+  .elementor-element.elementor-element-9fa5ba0
+  .elementor-heading-title {
+  color: var(--e-global-color-vamtam_accent_6);
+}
+.elementor-3 .elementor-element.elementor-element-07337c1 {
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+.elementor-3
+  .elementor-element.elementor-element-566bb8a
+  .elementor-heading-title {
+  text-transform: none;
+}
+.elementor-3
+  .elementor-element.elementor-element-566bb8a
+  > .elementor-widget-container {
+  margin: 0;
+}
+.elementor-3
+  .elementor-element.elementor-element-e2508c0
+  .elementor-heading-title {
+  font-family: var(--e-global-typography-vamtam_primary_font-font-family),
+    Sans-serif;
+  font-size: var(--e-global-typography-vamtam_primary_font-font-size);
+  line-height: var(--e-global-typography-vamtam_primary_font-line-height);
+}
+.elementor-3
+  .elementor-element.elementor-element-e2508c0
+  > .elementor-widget-container {
+  margin: 0 0 40px;
+}
+.elementor-3
+  .elementor-element.elementor-element-ec29f90
+  .elementor-heading-title {
+  text-transform: none;
+}
+.elementor-3
+  .elementor-element.elementor-element-b60f86c
+  > .elementor-widget-container {
+  margin: 0 0 40px;
+}
+.elementor-3
+  .elementor-element.elementor-element-3b98fec
+  .elementor-heading-title {
+  text-transform: none;
+}
+.elementor-3
+  .elementor-element.elementor-element-2cb02d4
+  > .elementor-widget-container {
+  margin: 0 0 40px;
+}
+.elementor-3
+  .elementor-element.elementor-element-dd0f659
+  .elementor-heading-title {
+  text-transform: none;
+}
+.elementor-3
+  .elementor-element.elementor-element-6801fd3
+  > .elementor-widget-container {
+  margin: 0 0 40px;
+}
+.elementor-3
+  .elementor-element.elementor-element-72ad038
+  .elementor-heading-title {
+  text-transform: none;
+}
+.elementor-3
+  .elementor-element.elementor-element-5861228
+  > .elementor-widget-container {
+  margin: 0 0 40px;
+}
+.elementor-3
+  .elementor-element.elementor-element-07039e5
+  .elementor-heading-title {
+  text-transform: none;
+}
+.elementor-3
+  .elementor-element.elementor-element-7907860
+  > .elementor-widget-container {
+  margin: 0 0 40px;
+}
+.elementor-3
+  .elementor-element.elementor-element-df6f390
+  .elementor-heading-title {
+  text-transform: none;
+}
+.elementor-3
+  .elementor-element.elementor-element-7530405
+  > .elementor-widget-container {
+  margin: 0 0 40px;
+}
+.elementor-3
+  .elementor-element.elementor-element-fa52e76
+  .elementor-heading-title {
+  text-transform: none;
+}
+.elementor-3
+  .elementor-element.elementor-element-e224cdd
+  > .elementor-widget-container {
+  margin: 0 0 40px;
+}
+.elementor-3
+  .elementor-element.elementor-element-50d4a88
+  .elementor-heading-title {
+  text-transform: none;
+}
+.elementor-3
+  .elementor-element.elementor-element-a4880cd
+  > .elementor-widget-container {
+  margin: 0;
+}
+:root {
+  --page-title-display: none;
+}
+@media (max-width: 1024px) {
+  .elementor-3 .elementor-element.elementor-element-0bcbb7d {
+    margin-top: 45px;
+    margin-bottom: 50px;
+    padding: 0 30px;
+  }
+  .elementor-3 .elementor-element.elementor-element-07337c1 {
+    margin-top: 0;
+    margin-bottom: 80px;
+    padding: 0 30px;
+  }
+  .elementor-3
+    .elementor-element.elementor-element-e2508c0
+    .elementor-heading-title {
+    font-size: var(--e-global-typography-vamtam_primary_font-font-size);
+    line-height: var(--e-global-typography-vamtam_primary_font-line-height);
+  }
+}
+@media (max-width: 767px) {
+  .elementor-3 .elementor-element.elementor-element-0bcbb7d {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0 20px;
+  }
+  .elementor-3 .elementor-element.elementor-element-9fa5ba0 {
+    text-align: center;
+  }
+  .elementor-3 .elementor-element.elementor-element-07337c1 {
+    margin-top: 0;
+    margin-bottom: 60px;
+    padding: 0 20px;
+  }
+  .elementor-3
+    .elementor-element.elementor-element-e2508c0
+    .elementor-heading-title {
+    font-size: var(--e-global-typography-vamtam_primary_font-font-size);
+    line-height: var(--e-global-typography-vamtam_primary_font-line-height);
+  }
+}

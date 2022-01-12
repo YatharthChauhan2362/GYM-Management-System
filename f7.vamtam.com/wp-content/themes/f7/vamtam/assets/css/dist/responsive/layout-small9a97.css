@@ -1,0 +1,691 @@
+.vamtam-font-primary-font {
+  font: var(--vamtam-primary-font-font-style, normal)
+    var(--vamtam-primary-font-font-weight, normal)
+    var(--vamtam-primary-font-font-size-desktop) /
+    var(--vamtam-primary-font-line-height-desktop)
+    var(--vamtam-primary-font-font-family);
+  letter-spacing: var(--vamtam-primary-font-letter-spacing-desktop, normal);
+  text-transform: var(--vamtam-primary-font-transform, none);
+  -webkit-text-decoration: var(--vamtam-primary-font-decoration, none);
+  text-decoration: var(--vamtam-primary-font-decoration, none);
+}
+.vamtam-font-primary-font-tablet {
+  font: var(--vamtam-primary-font-font-style, normal)
+    var(--vamtam-primary-font-font-weight, normal)
+    var(--vamtam-primary-font-font-size-tablet) /
+    var(--vamtam-primary-font-line-height-tablet)
+    var(--vamtam-primary-font-font-family);
+  letter-spacing: var(--vamtam-primary-font-letter-spacing-tablet, normal);
+  text-transform: var(--vamtam-primary-font-transform, none);
+  -webkit-text-decoration: var(--vamtam-primary-font-decoration, none);
+  text-decoration: var(--vamtam-primary-font-decoration, none);
+}
+.vamtam-font-primary-font-phone {
+  font: var(--vamtam-primary-font-font-style, normal)
+    var(--vamtam-primary-font-font-weight, normal)
+    var(--vamtam-primary-font-font-size-phone) /
+    var(--vamtam-primary-font-line-height-phone)
+    var(--vamtam-primary-font-font-family);
+  letter-spacing: var(--vamtam-primary-font-letter-spacing-phone, normal);
+  text-transform: var(--vamtam-primary-font-transform, none);
+  -webkit-text-decoration: var(--vamtam-primary-font-decoration, none);
+  text-decoration: var(--vamtam-primary-font-decoration, none);
+}
+.vamtam-font-h1 {
+  font: var(--vamtam-h1-font-style, normal) var(--vamtam-h1-font-weight, normal)
+    var(--vamtam-h1-font-size-desktop) / var(--vamtam-h1-line-height-desktop)
+    var(--vamtam-h1-font-family);
+  letter-spacing: var(--vamtam-h1-letter-spacing-desktop, normal);
+  text-transform: var(--vamtam-h1-transform, none);
+  -webkit-text-decoration: var(--vamtam-h1-decoration, none);
+  text-decoration: var(--vamtam-h1-decoration, none);
+}
+.vamtam-font-h1-tablet {
+  font: var(--vamtam-h1-font-style, normal) var(--vamtam-h1-font-weight, normal)
+    var(--vamtam-h1-font-size-tablet) / var(--vamtam-h1-line-height-tablet)
+    var(--vamtam-h1-font-family);
+  letter-spacing: var(--vamtam-h1-letter-spacing-tablet, normal);
+  text-transform: var(--vamtam-h1-transform, none);
+  -webkit-text-decoration: var(--vamtam-h1-decoration, none);
+  text-decoration: var(--vamtam-h1-decoration, none);
+}
+.vamtam-font-h1-phone {
+  font: var(--vamtam-h1-font-style, normal) var(--vamtam-h1-font-weight, normal)
+    var(--vamtam-h1-font-size-phone) / var(--vamtam-h1-line-height-phone)
+    var(--vamtam-h1-font-family);
+  letter-spacing: var(--vamtam-h1-letter-spacing-phone, normal);
+  text-transform: var(--vamtam-h1-transform, none);
+  -webkit-text-decoration: var(--vamtam-h1-decoration, none);
+  text-decoration: var(--vamtam-h1-decoration, none);
+}
+.vamtam-font-h2 {
+  font: var(--vamtam-h2-font-style, normal) var(--vamtam-h2-font-weight, normal)
+    var(--vamtam-h2-font-size-desktop) / var(--vamtam-h2-line-height-desktop)
+    var(--vamtam-h2-font-family);
+  letter-spacing: var(--vamtam-h2-letter-spacing-desktop, normal);
+  text-transform: var(--vamtam-h2-transform, none);
+  -webkit-text-decoration: var(--vamtam-h2-decoration, none);
+  text-decoration: var(--vamtam-h2-decoration, none);
+}
+.vamtam-font-h2-tablet {
+  font: var(--vamtam-h2-font-style, normal) var(--vamtam-h2-font-weight, normal)
+    var(--vamtam-h2-font-size-tablet) / var(--vamtam-h2-line-height-tablet)
+    var(--vamtam-h2-font-family);
+  letter-spacing: var(--vamtam-h2-letter-spacing-tablet, normal);
+  text-transform: var(--vamtam-h2-transform, none);
+  -webkit-text-decoration: var(--vamtam-h2-decoration, none);
+  text-decoration: var(--vamtam-h2-decoration, none);
+}
+.vamtam-font-h2-phone {
+  font: var(--vamtam-h2-font-style, normal) var(--vamtam-h2-font-weight, normal)
+    var(--vamtam-h2-font-size-phone) / var(--vamtam-h2-line-height-phone)
+    var(--vamtam-h2-font-family);
+  letter-spacing: var(--vamtam-h2-letter-spacing-phone, normal);
+  text-transform: var(--vamtam-h2-transform, none);
+  -webkit-text-decoration: var(--vamtam-h2-decoration, none);
+  text-decoration: var(--vamtam-h2-decoration, none);
+}
+.vamtam-font-h3 {
+  font: var(--vamtam-h3-font-style, normal) var(--vamtam-h3-font-weight, normal)
+    var(--vamtam-h3-font-size-desktop) / var(--vamtam-h3-line-height-desktop)
+    var(--vamtam-h3-font-family);
+  letter-spacing: var(--vamtam-h3-letter-spacing-desktop, normal);
+  text-transform: var(--vamtam-h3-transform, none);
+  -webkit-text-decoration: var(--vamtam-h3-decoration, none);
+  text-decoration: var(--vamtam-h3-decoration, none);
+}
+.vamtam-font-h3-tablet {
+  font: var(--vamtam-h3-font-style, normal) var(--vamtam-h3-font-weight, normal)
+    var(--vamtam-h3-font-size-tablet) / var(--vamtam-h3-line-height-tablet)
+    var(--vamtam-h3-font-family);
+  letter-spacing: var(--vamtam-h3-letter-spacing-tablet, normal);
+  text-transform: var(--vamtam-h3-transform, none);
+  -webkit-text-decoration: var(--vamtam-h3-decoration, none);
+  text-decoration: var(--vamtam-h3-decoration, none);
+}
+.vamtam-font-h3-phone {
+  font: var(--vamtam-h3-font-style, normal) var(--vamtam-h3-font-weight, normal)
+    var(--vamtam-h3-font-size-phone) / var(--vamtam-h3-line-height-phone)
+    var(--vamtam-h3-font-family);
+  letter-spacing: var(--vamtam-h3-letter-spacing-phone, normal);
+  text-transform: var(--vamtam-h3-transform, none);
+  -webkit-text-decoration: var(--vamtam-h3-decoration, none);
+  text-decoration: var(--vamtam-h3-decoration, none);
+}
+.vamtam-font-h4 {
+  font: var(--vamtam-h4-font-style, normal) var(--vamtam-h4-font-weight, normal)
+    var(--vamtam-h4-font-size-desktop) / var(--vamtam-h4-line-height-desktop)
+    var(--vamtam-h4-font-family);
+  letter-spacing: var(--vamtam-h4-letter-spacing-desktop, normal);
+  text-transform: var(--vamtam-h4-transform, none);
+  -webkit-text-decoration: var(--vamtam-h4-decoration, none);
+  text-decoration: var(--vamtam-h4-decoration, none);
+}
+.vamtam-font-h4-tablet {
+  font: var(--vamtam-h4-font-style, normal) var(--vamtam-h4-font-weight, normal)
+    var(--vamtam-h4-font-size-tablet) / var(--vamtam-h4-line-height-tablet)
+    var(--vamtam-h4-font-family);
+  letter-spacing: var(--vamtam-h4-letter-spacing-tablet, normal);
+  text-transform: var(--vamtam-h4-transform, none);
+  -webkit-text-decoration: var(--vamtam-h4-decoration, none);
+  text-decoration: var(--vamtam-h4-decoration, none);
+}
+.vamtam-font-h4-phone {
+  font: var(--vamtam-h4-font-style, normal) var(--vamtam-h4-font-weight, normal)
+    var(--vamtam-h4-font-size-phone) / var(--vamtam-h4-line-height-phone)
+    var(--vamtam-h4-font-family);
+  letter-spacing: var(--vamtam-h4-letter-spacing-phone, normal);
+  text-transform: var(--vamtam-h4-transform, none);
+  -webkit-text-decoration: var(--vamtam-h4-decoration, none);
+  text-decoration: var(--vamtam-h4-decoration, none);
+}
+.vamtam-font-h5 {
+  font: var(--vamtam-h5-font-style, normal) var(--vamtam-h5-font-weight, normal)
+    var(--vamtam-h5-font-size-desktop) / var(--vamtam-h5-line-height-desktop)
+    var(--vamtam-h5-font-family);
+  letter-spacing: var(--vamtam-h5-letter-spacing-desktop, normal);
+  text-transform: var(--vamtam-h5-transform, none);
+  -webkit-text-decoration: var(--vamtam-h5-decoration, none);
+  text-decoration: var(--vamtam-h5-decoration, none);
+}
+.vamtam-font-h5-tablet {
+  font: var(--vamtam-h5-font-style, normal) var(--vamtam-h5-font-weight, normal)
+    var(--vamtam-h5-font-size-tablet) / var(--vamtam-h5-line-height-tablet)
+    var(--vamtam-h5-font-family);
+  letter-spacing: var(--vamtam-h5-letter-spacing-tablet, normal);
+  text-transform: var(--vamtam-h5-transform, none);
+  -webkit-text-decoration: var(--vamtam-h5-decoration, none);
+  text-decoration: var(--vamtam-h5-decoration, none);
+}
+.vamtam-font-h5-phone {
+  font: var(--vamtam-h5-font-style, normal) var(--vamtam-h5-font-weight, normal)
+    var(--vamtam-h5-font-size-phone) / var(--vamtam-h5-line-height-phone)
+    var(--vamtam-h5-font-family);
+  letter-spacing: var(--vamtam-h5-letter-spacing-phone, normal);
+  text-transform: var(--vamtam-h5-transform, none);
+  -webkit-text-decoration: var(--vamtam-h5-decoration, none);
+  text-decoration: var(--vamtam-h5-decoration, none);
+}
+.vamtam-font-h6 {
+  font: var(--vamtam-h6-font-style, normal) var(--vamtam-h6-font-weight, normal)
+    var(--vamtam-h6-font-size-desktop) / var(--vamtam-h6-line-height-desktop)
+    var(--vamtam-h6-font-family);
+  letter-spacing: var(--vamtam-h6-letter-spacing-desktop, normal);
+  text-transform: var(--vamtam-h6-transform, none);
+  -webkit-text-decoration: var(--vamtam-h6-decoration, none);
+  text-decoration: var(--vamtam-h6-decoration, none);
+}
+.vamtam-font-h6-tablet {
+  font: var(--vamtam-h6-font-style, normal) var(--vamtam-h6-font-weight, normal)
+    var(--vamtam-h6-font-size-tablet) / var(--vamtam-h6-line-height-tablet)
+    var(--vamtam-h6-font-family);
+  letter-spacing: var(--vamtam-h6-letter-spacing-tablet, normal);
+  text-transform: var(--vamtam-h6-transform, none);
+  -webkit-text-decoration: var(--vamtam-h6-decoration, none);
+  text-decoration: var(--vamtam-h6-decoration, none);
+}
+.vamtam-font-h6-phone {
+  font: var(--vamtam-h6-font-style, normal) var(--vamtam-h6-font-weight, normal)
+    var(--vamtam-h6-font-size-phone) / var(--vamtam-h6-line-height-phone)
+    var(--vamtam-h6-font-family);
+  letter-spacing: var(--vamtam-h6-letter-spacing-phone, normal);
+  text-transform: var(--vamtam-h6-transform, none);
+  -webkit-text-decoration: var(--vamtam-h6-decoration, none);
+  text-decoration: var(--vamtam-h6-decoration, none);
+}
+body.responsive-layout {
+  --vamtam-primary-font-font-size-desktop: var(
+    --vamtam-primary-font-font-size-phone
+  );
+  --vamtam-primary-font-line-height-desktop: var(
+    --vamtam-primary-font-line-height-phone
+  );
+  --vamtam-primary-font-letter-spacing-desktop: var(
+    --vamtam-primary-font-letter-spacing-phone,
+    normal
+  );
+  --vamtam-h1-font-size-desktop: var(--vamtam-h1-font-size-phone);
+  --vamtam-h1-line-height-desktop: var(--vamtam-h1-line-height-phone);
+  --vamtam-h1-letter-spacing-desktop: var(
+    --vamtam-h1-letter-spacing-phone,
+    normal
+  );
+  --vamtam-h2-font-size-desktop: var(--vamtam-h2-font-size-phone);
+  --vamtam-h2-line-height-desktop: var(--vamtam-h2-line-height-phone);
+  --vamtam-h2-letter-spacing-desktop: var(
+    --vamtam-h2-letter-spacing-phone,
+    normal
+  );
+  --vamtam-h3-font-size-desktop: var(--vamtam-h3-font-size-phone);
+  --vamtam-h3-line-height-desktop: var(--vamtam-h3-line-height-phone);
+  --vamtam-h3-letter-spacing-desktop: var(
+    --vamtam-h3-letter-spacing-phone,
+    normal
+  );
+  --vamtam-h4-font-size-desktop: var(--vamtam-h4-font-size-phone);
+  --vamtam-h4-line-height-desktop: var(--vamtam-h4-line-height-phone);
+  --vamtam-h4-letter-spacing-desktop: var(
+    --vamtam-h4-letter-spacing-phone,
+    normal
+  );
+  --vamtam-h5-font-size-desktop: var(--vamtam-h5-font-size-phone);
+  --vamtam-h5-line-height-desktop: var(--vamtam-h5-line-height-phone);
+  --vamtam-h5-letter-spacing-desktop: var(
+    --vamtam-h5-letter-spacing-phone,
+    normal
+  );
+  --vamtam-h6-font-size-desktop: var(--vamtam-h6-font-size-phone);
+  --vamtam-h6-line-height-desktop: var(--vamtam-h6-line-height-phone);
+  --vamtam-h6-letter-spacing-desktop: var(
+    --vamtam-h6-letter-spacing-phone,
+    normal
+  );
+  --vamtam-em-font-size-desktop: var(--vamtam-em-font-size-phone);
+  --vamtam-em-line-height-desktop: var(--vamtam-em-line-height-phone);
+  --vamtam-em-letter-spacing-desktop: var(
+    --vamtam-em-letter-spacing-phone,
+    normal
+  );
+}
+body.responsive-layout .limit-wrapper,
+body.responsive-layout .page-wrapper > .vamtam-body-sidebar,
+body.responsive-layout .vamtam-box-outer-padding,
+body.responsive-layout body.has-blocks:not(.fl-builder) .the-content-parent > *,
+body.responsive-layout header.main-header .header-padding,
+body.responsive-layout.single-post .single-post-wrapper .post-meta,
+body.responsive-layout:not(.vamtam-is-elementor)
+  .vamtam-main:not(.layout-full)
+  article {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body.responsive-layout .vamtam-body-sidebar {
+  border-top: solid 1px var(--vamtam-default-line-color);
+  padding-top: var(--vamtam-sidebar-content-margin);
+}
+body.responsive-layout .woocommerce-tabs .limit-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+body.responsive-layout #sub-header {
+  border-top: none;
+}
+body.responsive-layout #commentform .form-submit {
+  margin: 0 !important;
+}
+body.responsive-layout .comments .comment-author {
+  display: none;
+}
+body.responsive-layout th {
+  padding: 0.5em;
+}
+.wp-block-table.is-style-stripes body.responsive-layout td,
+body.responsive-layout td {
+  padding: 0.5em;
+}
+body.responsive-layout h3 .vamtam-button {
+  margin-top: 20px;
+}
+body.responsive-layout blockquote.simple .quote-content {
+  padding: 0;
+}
+body.responsive-layout #header-404 {
+  background-position-y: 30px !important;
+  background-size: 100px !important;
+}
+body.responsive-layout #header-404 .line-1 {
+  padding: 50px 0 0;
+  font-size: 120px;
+}
+body.responsive-layout .widget.widget_search {
+  margin-top: 10px;
+}
+body.responsive-layout:not(.vamtam-limited-layout)
+  ul.products
+  li.product:not(.product-category):hover
+  .vamtam-product-content,
+body.responsive-layout:not(.vamtam-limited-layout)
+  ul.products
+  li.product:not(.product-category):hover
+  .vamtam-product-content
+  > *,
+body.responsive-layout:not(.vamtam-limited-layout)
+  ul.products
+  li.product:not(.product-category):hover
+  > a
+  img {
+  transform: translateY(0);
+}
+body.responsive-layout:not(.vamtam-limited-layout)
+  ul.products
+  li.product:not(.product-category)
+  .vamtam-add-to-cart-wrap
+  > a[href] {
+  position: static;
+  transform: translateY(0);
+  opacity: 1;
+}
+body.responsive-layout ul.products li.product-category.product > a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+body.responsive-layout
+  ul.products
+  li.product-category.product
+  .vamtam-hover-wrap {
+  position: relative;
+  height: auto;
+}
+body.responsive-layout
+  ul.products
+  li.product-category.product
+  .vamtam-hover-wrap
+  .vamtam-product-cat-btn {
+  opacity: 1;
+  position: relative;
+  transform: translateY(0);
+}
+body.responsive-layout
+  ul.products
+  li.product-category.product
+  .vamtam-product-cat-content {
+  flex: 1;
+  padding-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 45px;
+}
+body.responsive-layout
+  ul.products
+  li.product-category.product
+  .vamtam-product-cat-content,
+body.responsive-layout
+  ul.products
+  li.product-category.product
+  .vamtam-product-cat-content
+  > * {
+  transform: translateY(0);
+}
+body.responsive-layout
+  ul.products
+  li.product-category.product:hover
+  .vamtam-product-cat-content,
+body.responsive-layout
+  ul.products
+  li.product-category.product:hover
+  .vamtam-product-cat-content
+  > *,
+body.responsive-layout ul.products li.product-category.product:hover > a img {
+  transform: translateY(0);
+}
+body.responsive-layout
+  .elementor-widget-woocommerce-menu-cart
+  .elementor-menu-cart__main
+  .product-remove,
+body.responsive-layout .elementor-widget-woocommerce-menu-cart .product-remove,
+body.responsive-layout
+  .vamtam-cart-main
+  .elementor-menu-cart__main
+  .product-remove,
+body.responsive-layout .vamtam-cart-main .product-remove {
+  grid-row: 1/2;
+  align-self: flex-start;
+}
+body.responsive-layout
+  .elementor-widget-woocommerce-menu-cart
+  .elementor-menu-cart__main
+  .product-price,
+body.responsive-layout .elementor-widget-woocommerce-menu-cart .product-price,
+body.responsive-layout
+  .vamtam-cart-main
+  .elementor-menu-cart__main
+  .product-price,
+body.responsive-layout .vamtam-cart-main .product-price {
+  grid-column: 1/4;
+}
+body.responsive-layout
+  .elementor-widget-woocommerce-menu-cart
+  .elementor-menu-cart__main
+  .product-name,
+body.responsive-layout .elementor-widget-woocommerce-menu-cart .product-name,
+body.responsive-layout
+  .vamtam-cart-main
+  .elementor-menu-cart__main
+  .product-name,
+body.responsive-layout .vamtam-cart-main .product-name {
+  padding-top: 0;
+  padding-left: 20px;
+  padding-right: 25px;
+}
+body.responsive-layout
+  .elementor-widget-woocommerce-menu-cart
+  .elementor-menu-cart__main,
+body.responsive-layout .vamtam-cart-main .elementor-menu-cart__main {
+  padding: 50px 20px;
+  width: 100vw;
+  height: 100vh;
+}
+body.responsive-layout
+  .elementor-widget-woocommerce-menu-cart
+  > .woocommerce-cart-form__contents
+  .cart_item,
+body.responsive-layout
+  .vamtam-cart-main
+  > .woocommerce-cart-form__contents
+  .cart_item {
+  grid-template-columns: min(25%, 70px) auto auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+body.responsive-layout
+  .elementor-widget-woocommerce-menu-cart
+  > .woocommerce-cart-form__contents
+  .cart_item
+  .product-price:before,
+body.responsive-layout
+  .vamtam-cart-main
+  > .woocommerce-cart-form__contents
+  .cart_item
+  .product-price:before {
+  display: block;
+}
+body.responsive-layout.woocommerce.woocommerce-cart .col2-set .col-2 {
+  padding: 0;
+}
+body.responsive-layout.woocommerce.woocommerce-cart .cross-sells ul.products {
+  grid-template-columns: 1fr;
+}
+body.responsive-layout.woocommerce.woocommerce-cart
+  .cross-sells
+  ul.products
+  li.product {
+  padding-bottom: 30px;
+}
+body.responsive-layout.woocommerce.woocommerce-cart .cross-sells,
+body.responsive-layout.woocommerce.woocommerce-cart .vamtam-cart-main {
+  padding: 0;
+}
+body.responsive-layout.woocommerce.woocommerce-cart
+  .cart_totals
+  table.shop_table
+  .cart-subtotal,
+body.responsive-layout.woocommerce.woocommerce-cart
+  .cart_totals
+  table.shop_table
+  .order-total {
+  display: flex;
+  align-content: center;
+}
+body.responsive-layout.woocommerce.woocommerce-cart
+  .cart_totals
+  table.shop_table
+  .cart-subtotal
+  > th,
+body.responsive-layout.woocommerce.woocommerce-cart
+  .cart_totals
+  table.shop_table
+  .order-total
+  > th {
+  display: block;
+}
+body.responsive-layout.woocommerce.woocommerce-cart
+  .cart_totals
+  table.shop_table
+  .cart-subtotal
+  > td,
+body.responsive-layout.woocommerce.woocommerce-cart
+  .cart_totals
+  table.shop_table
+  .order-total
+  > td {
+  margin-left: auto;
+}
+body.responsive-layout.woocommerce.woocommerce-cart
+  .cart_totals
+  table.shop_table
+  .cart-subtotal
+  > td::before,
+body.responsive-layout.woocommerce.woocommerce-cart
+  .cart_totals
+  table.shop_table
+  .order-total
+  > td::before {
+  display: none;
+}
+body.responsive-layout.woocommerce.woocommerce-checkout
+  .woocommerce-coupon-form,
+body.responsive-layout.woocommerce.woocommerce-checkout
+  .woocommerce-login-form {
+  float: none;
+  width: 100%;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+body.responsive-layout.woocommerce.woocommerce-checkout
+  .woocommerce-login-form
+  form.woocommerce-form-login {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+body.responsive-layout.woocommerce.woocommerce-checkout .checkout_coupon {
+  padding: 10px;
+}
+body.responsive-layout
+  .woocommerce.woocommerce-cart
+  .meta-header
+  .meta-header-inside,
+body.responsive-layout
+  .woocommerce.woocommerce-checkout
+  .meta-header
+  .meta-header-inside {
+  padding: 0;
+}
+body.responsive-layout
+  .woocommerce.woocommerce-cart
+  #sub-header
+  .meta-header-inside {
+  max-height: 1vh;
+}
+body.responsive-layout .elementor-post__text {
+  padding: 0;
+}
+body.responsive-layout .alignleft.wp-caption,
+body.responsive-layout .alignleft:not(.wp-caption) img,
+body.responsive-layout .alignright.wp-caption,
+body.responsive-layout .alignright:not(.wp-caption) img {
+  max-width: 50vw;
+}
+body.responsive-layout .loop-wrapper.regular .post {
+  width: 100%;
+}
+body.responsive-layout.woocommerce.woocommerce-account .limit-wrapper,
+body.responsive-layout.woocommerce.woocommerce-cart .limit-wrapper,
+body.responsive-layout.woocommerce.woocommerce-checkout .limit-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.elementor-section.elementor-element {
+  padding: 0 20px;
+}
+.elementor-widget-tabs .elementor-tab-mobile-title {
+  font-family: var(--vamtam-h3-font-family);
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  line-height: 26px;
+  color: var(--vamtam-accent-color-4);
+  text-transform: uppercase;
+}
+.elementor-widget-tabs .elementor-tab-mobile-title.elementor-active {
+  color: var(--vamtam-accent-color-3);
+}
+.elementor-widget-tabs.vamtam-mobile-tabs .elementor-tab-mobile-title {
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+  padding: 10px 0;
+  border: 0;
+  border-color: var(--vamtam-accent-color-4);
+  border-style: solid;
+  border-bottom-width: 1px !important;
+}
+.elementor-widget-tabs.vamtam-mobile-tabs
+  .elementor-tab-mobile-title.elementor-active {
+  border-color: var(--vamtam-accent-color-3);
+  margin-bottom: 50px;
+}
+.elementor-widget-tabs.vamtam-mobile-tabs
+  .elementor-tab-mobile-title.elementor-active
+  + .elementor-tab-content
+  + .elementor-tab-mobile-title {
+  margin-top: 30px;
+  border-top-width: 1px !important;
+}
+.elementor-widget-tabs.vamtam-has-numbering-bg
+  .elementor-tabs
+  .elementor-tab-mobile-title {
+  display: flex;
+}
+.elementor-widget-wc-archive-products.elementor-element.elementor-widget
+  .products.vamtam-wc {
+  grid-template-columns: 1fr;
+}
+.elementor-widget-wc-archive-products.elementor-widget.elementor-wc-products
+  .products.vamtam-wc
+  .product.sale
+  span.price {
+  top: 40px;
+  margin: 10px;
+}
+.elementor-widget-wc-archive-products.elementor-widget.elementor-wc-products
+  .products.vamtam-wc
+  .product
+  span.onsale {
+  top: 0;
+  left: 0;
+  margin: 0;
+  font-size: 16px;
+  min-width: 40px;
+  min-height: 40px;
+  line-height: 40px;
+}
+.elementor-widget-form
+  .elementor-field-type-checkbox
+  .elementor-field-subgroup.elementor-subgroup-inline {
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+.elementor-widget-form.vamtam-has-theme-form-style
+  .elementor-field-type-radio.elementor-field-group
+  > .elementor-field-subgroup.elementor-subgroup-inline {
+  flex-direction: column;
+  align-items: center;
+}
+.elementor-widget-form.vamtam-has-theme-form-style
+  .elementor-field-type-radio.elementor-field-group
+  > .elementor-field-subgroup.elementor-subgroup-inline
+  > .elementor-field-option {
+  padding-right: 0;
+  padding-left: 0;
+}
+.elementor-widget-woocommerce-menu-cart
+  .elementor-menu-cart__container
+  .elementor-menu-cart__main {
+  min-width: 100%;
+}
+.elementor-widget-woocommerce-menu-cart.elementor-menu-cart--buttons-mobile-inline
+  .elementor-menu-cart__footer-buttons {
+  grid-template-columns: 1fr 1fr;
+}
+.elementor-widget-woocommerce-menu-cart.elementor-menu-cart--buttons-mobile-stacked
+  .elementor-menu-cart__footer-buttons {
+  grid-template-columns: 1fr;
+}
+.elementor-widget-woocommerce-menu-cart
+  .elementor-menu-cart__wrapper
+  .elementor-menu-cart__container
+  > .elementor-menu-cart__main {
+  padding-left: 0;
+  padding-right: 0;
+}
+.elementor-widget-woocommerce-menu-cart > .vamtam-elementor-menu-cart__header,
+.elementor-widget-woocommerce-menu-cart
+  > .widget_shopping_cart_content
+  .cart_item,
+.elementor-widget-woocommerce-menu-cart
+  > .widget_shopping_cart_content
+  > :not(.woocommerce-cart-form__contents) {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.elementor-widget-woocommerce-product-short-description
+  .woocommerce-product-details__short-description
+  .limit-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+.elementor-widget-woocommerce-product-add-to-cart.elementor-add-to-cart-mobile--align-justify
+  .added_to_cart {
+  flex-basis: 100%;
+}

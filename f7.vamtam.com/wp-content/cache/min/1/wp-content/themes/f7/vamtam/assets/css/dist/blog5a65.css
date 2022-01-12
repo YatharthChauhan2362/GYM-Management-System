@@ -1,0 +1,556 @@
+.loop-wrapper .post-actions-wrapper {
+  height: auto;
+  width: 100%;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.loop-wrapper .post-actions-wrapper .comment-word {
+  display: none;
+}
+.loop-wrapper .post-actions-wrapper a {
+  display: inline;
+  border: var(--vamtam-no-border-link);
+}
+.loop-wrapper .post-actions-wrapper a:hover {
+  opacity: 1;
+}
+.loop-wrapper .post-actions-wrapper a:hover .icon {
+  color: var(--vamtam-body-link-hover);
+}
+.loop-wrapper .post-actions-wrapper .author a .icon {
+  display: none;
+}
+.loop-wrapper .post-actions-wrapper .post-edit-link {
+  margin: 0 5px;
+  font-size: 0.7em;
+  color: inherit;
+}
+.loop-wrapper .post-actions-wrapper span.icon {
+  padding: 0 0.3em;
+}
+.loop-wrapper .post-row:hover .media-inner > img {
+  opacity: 0.8;
+  -webkit-backface-visibility: hidden;
+}
+.loop-wrapper .vamtam-meta-author,
+.loop-wrapper .vamtam-meta-comments,
+.loop-wrapper .vamtam-meta-date,
+.loop-wrapper .vamtam-meta-tax {
+  display: inline-block;
+  padding: 0;
+}
+.loop-wrapper .vamtam-meta-author:hover,
+.loop-wrapper .vamtam-meta-comments:hover,
+.loop-wrapper .vamtam-meta-date:hover,
+.loop-wrapper .vamtam-meta-tax:hover {
+  opacity: 1;
+}
+.loop-wrapper .vamtam-meta-author span.icon,
+.loop-wrapper .vamtam-meta-comments span.icon,
+.loop-wrapper .vamtam-meta-date span.icon,
+.loop-wrapper .vamtam-meta-tax span.icon {
+  padding-top: 0;
+  padding-left: 2px;
+}
+.loop-wrapper .vamtam-meta-comments svg,
+.loop-wrapper .vamtam-meta-tax.the-tags svg {
+  width: 1em;
+  height: auto;
+  margin-right: 10px;
+  color: var(--vamtam-accent-color-6);
+  vertical-align: middle;
+}
+.loop-wrapper .vamtam-meta-comments svg {
+  margin-top: -3px;
+}
+.loop-wrapper .list-item {
+  margin-bottom: 0;
+}
+.loop-wrapper .list-item:last-child {
+  border-bottom: 0;
+}
+.loop-wrapper .list-item .post-content-outer .post-content > ol:last-child,
+.loop-wrapper .list-item .post-content-outer .post-content > ul:last-child {
+  margin-bottom: 1em;
+}
+.loop-wrapper .list-item .post-media {
+  min-width: 38%;
+  max-width: 38%;
+  flex: 0 1;
+  order: 2;
+  margin: 0;
+  margin-bottom: 20px;
+  margin-top: 0;
+  padding-right: 4%;
+}
+.loop-wrapper .list-item .post-media .media-inner {
+  display: block;
+}
+.loop-wrapper .list-item .post-article {
+  display: block;
+}
+.loop-wrapper header {
+  position: relative;
+  margin-bottom: var(--vamtam-content-space-m);
+}
+.loop-wrapper header a {
+  display: block;
+}
+.loop-wrapper .page-content {
+  position: relative;
+}
+.loop-wrapper .post-article {
+  display: inline-block;
+  margin: 0;
+  width: 100%;
+}
+:not(.single-post-wrapper) > .loop-wrapper .post-article p {
+  font-size: inherit;
+}
+.loop-wrapper .post-article .post-content-outer .post-meta {
+  overflow: hidden;
+  margin: 0 0 15px;
+  clear: both;
+}
+.loop-wrapper .post-article .post-content-outer .post-meta .post-actions > div,
+.loop-wrapper .post-article .post-content-outer .post-meta .post-edit-link,
+.loop-wrapper
+  .post-article
+  .post-content-outer
+  .post-meta
+  nav
+  > div:not(.post-actions) {
+  padding-right: 20px;
+  margin-top: 10px;
+  min-height: 20px;
+  text-align: left;
+  display: inline-block;
+}
+.loop-wrapper
+  .post-article
+  .post-content-outer
+  .post-meta
+  .post-actions
+  > div
+  > span.icon,
+.loop-wrapper
+  .post-article
+  .post-content-outer
+  .post-meta
+  .post-edit-link
+  > span.icon,
+.loop-wrapper
+  .post-article
+  .post-content-outer
+  .post-meta
+  nav
+  > div:not(.post-actions)
+  > span.icon {
+  opacity: 0.8;
+  font-family: vamtam-theme !important;
+}
+.loop-wrapper
+  .post-article
+  .post-content-outer
+  .post-meta
+  .post-actions
+  > div.blog-buttons,
+.loop-wrapper
+  .post-article
+  .post-content-outer
+  .post-meta
+  .post-edit-link.blog-buttons,
+.loop-wrapper
+  .post-article
+  .post-content-outer
+  .post-meta
+  nav
+  > div:not(.post-actions).blog-buttons {
+  padding-top: 24px;
+  border-right: none !important;
+}
+.loop-wrapper
+  .post-article
+  .post-content-outer
+  .post-meta
+  .post-actions
+  > div.blog-buttons
+  a,
+.loop-wrapper
+  .post-article
+  .post-content-outer
+  .post-meta
+  .post-edit-link.blog-buttons
+  a,
+.loop-wrapper
+  .post-article
+  .post-content-outer
+  .post-meta
+  nav
+  > div:not(.post-actions).blog-buttons
+  a {
+  position: relative;
+}
+.loop-wrapper
+  .post-article
+  .post-content-outer
+  .post-meta
+  .post-actions
+  > div.blog-buttons
+  a:after,
+.loop-wrapper
+  .post-article
+  .post-content-outer
+  .post-meta
+  .post-edit-link.blog-buttons
+  a:after,
+.loop-wrapper
+  .post-article
+  .post-content-outer
+  .post-meta
+  nav
+  > div:not(.post-actions).blog-buttons
+  a:after {
+  position: absolute;
+  top: -25px;
+  right: -20px;
+  width: 1px;
+  height: 300%;
+  border-right: 1px solid var(--vamtam-default-line-color);
+  content: "";
+}
+.loop-wrapper .post-article .post-content-outer .post-meta span.icon {
+  display: inline-block;
+  overflow: hidden;
+  text-align: center;
+  width: auto;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: vamtam-theme !important;
+}
+.loop-wrapper .post-article .post-content-outer .post-meta .post-actions {
+  float: right;
+}
+.page-content label[for|="pwbox"] input {
+  font-size: var(--vamtam-primary-font-font-size-desktop) !important;
+}
+.page-content label[for|="pwbox"] input[type="password"] {
+  padding: 14px;
+  top: -1px;
+  margin: 0;
+  font-size: 8px;
+  line-height: 17px;
+}
+.post-article header.sep-text.single .content {
+  text-align: left;
+  white-space: normal;
+}
+.post-article header h4 {
+  margin: 0 0 10px;
+}
+.post-article header h4 a {
+  transition: all 0.2s ease;
+}
+.post-article .post-subheader {
+  display: table;
+  width: 100%;
+  font-size: 14px;
+}
+.post-article .post-subheader .post-date {
+  display: table-cell;
+  margin: 0;
+  padding-right: 1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: 11px;
+  line-height: 1;
+}
+.post-article .post-subheader .post-date-after {
+  display: table-cell;
+  overflow: visible;
+  width: 100%;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.post-article .post-subheader .post-date-after:after {
+  display: inline-block;
+  width: 100%;
+  height: 1ex;
+  border-bottom: 1px solid var(--vamtam-default-line-color);
+  content: "";
+  vertical-align: top;
+}
+.post-article .post-media {
+  text-align: center;
+  max-width: 100%;
+  margin: auto;
+}
+.post-article .post-media .media-inner {
+  position: relative;
+  min-height: 20px+0 * 2;
+}
+.post-article .post-media .media-inner > div {
+  max-width: none !important;
+  width: auto !important;
+}
+.post-article .post-media .media-inner > a img,
+.post-article .post-media .media-inner > img {
+  transition: all 0.3s;
+  max-width: 100%;
+}
+.post-article .blog-buttons {
+  text-align: center;
+}
+.post-article .blog-buttons:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.post-article .blog-buttons a {
+  display: inline-block;
+  margin: 0 auto;
+}
+.post-article .blog-buttons a .icon {
+  margin: 0 8px 0 0;
+  padding: 0;
+  color: var(--vamtam-accent-color-1);
+  font-size: 16px;
+}
+body.layout-full .post-article .post-media .media-inner {
+  padding: 0;
+  border: 0;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  border-radius: var(--vamtam-border-radius);
+  max-width: var(--vamtam-site-max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+body.layout-full .post-article .post-media .media-inner img {
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.loop-wrapper.regular .list-item {
+  width: calc(50% - 60px / 2);
+  box-sizing: border-box;
+  margin-bottom: 60px !important;
+  transition: background-color 0.25s;
+}
+body.layout-full .loop-wrapper.regular .list-item {
+  width: calc(33% - 2 * 60px / 3);
+}
+.loop-wrapper.regular .list-item.sticky {
+  background-color: var(--vamtam-accent-color-1);
+}
+.loop-wrapper.regular .list-item.sticky .post-content-outer {
+  padding: 30px 20px;
+}
+.loop-wrapper.regular .list-item .vamtam-meta-author,
+.loop-wrapper.regular .list-item .vamtam-meta-comments,
+.loop-wrapper.regular .list-item .vamtam-meta-date,
+.loop-wrapper.regular .list-item .vamtam-meta-tax {
+  margin-right: 20px;
+  font-weight: 500;
+}
+.loop-wrapper.regular
+  .list-item:first-child
+  .post-article
+  .post-content-outer.vamtam-full-width-thumb
+  .vamtam-meta-tax.the-categories {
+  top: 0;
+}
+.loop-wrapper.regular
+  .list-item
+  .post-article
+  .post-content-outer.vamtam-full-width-thumb
+  .vamtam-meta-tax.the-categories {
+  position: absolute;
+  padding: 15px;
+  top: 45px;
+}
+.loop-wrapper.regular .list-item .post-content-outer {
+  box-sizing: border-box;
+}
+.loop-wrapper.regular .list-item .post-content-outer:not(:first-child) {
+  padding-top: 30px;
+}
+.loop-wrapper.regular .list-item .post-content-outer .post-meta {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.loop-wrapper.regular .list-item .post-content-outer .post-content {
+  font-size: 16px;
+  line-height: 24px;
+}
+.loop-wrapper.regular .list-item .post-content-outer .excerpt {
+  word-break: break-word;
+}
+.loop-wrapper.regular .list-item .post-content-outer .excerpt:not(:last-child) {
+  margin-bottom: var(--vamtam-content-space-s);
+}
+.loop-wrapper.regular .list-item header h4 {
+  margin: 0 0 var(--vamtam-content-space-xs);
+  overflow-wrap: break-word;
+  line-height: 1.2;
+}
+.loop-wrapper.regular .list-item header h4 a {
+  color: var(--vamtam-accent-color-6);
+}
+.loop-wrapper.regular .list-item header h4 a:hover {
+  text-decoration: underline;
+}
+.loop-wrapper.regular .list-item .media-inner > div {
+  margin: 0;
+}
+.loop-wrapper.regular .list-item .media-inner .wp-post-image {
+  display: block;
+  width: 100%;
+}
+.loop-wrapper.regular .list-item .post-row .media-inner {
+  background-color: var(--vamtam-accent-color-5);
+  transition: background 0.4s ease-out;
+}
+.loop-wrapper.regular
+  .list-item
+  .post-row
+  .media-inner.vamtam-has-post-thumb-shape
+  > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loop-wrapper.regular .list-item .post-row .navigation:last-child,
+.loop-wrapper.regular .list-item .post-row .post-actions-wrapper:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.loop-wrapper.regular .list-item .post-row .vamtam-meta-date {
+  margin-bottom: var(--vamtam-content-space-m);
+}
+.loop-wrapper.regular .list-item .post-row .vamtam-meta-date a {
+  color: #747474;
+  font: 400 14px/1.4 inherit;
+}
+.loop-wrapper.regular .list-item .post-media {
+  margin-bottom: 0;
+  max-width: none;
+  padding-right: 0;
+  width: 100%;
+}
+body.single-post.layout-full .single-post-wrapper {
+  max-width: none;
+}
+body.single-post.layout-full .limit-wrapper {
+  --vamtam-site-max-width: 900px;
+}
+body.single-post.layout-full #main .comments-wrapper {
+  max-width: none;
+}
+body.single-post .single-post-meta-wrapper .meta-top {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  transition: all 0.3s ease;
+  margin: 0 auto;
+  font-size: 0.9em;
+}
+body.single-post
+  .single-post-meta-wrapper
+  .meta-top
+  .post-media
+  .media-inner
+  img {
+  width: 100%;
+}
+body.single-post .single-post-meta-wrapper .meta-top .meta-left {
+  display: grid;
+  flex: 1 1 auto;
+  grid-gap: 0 10px;
+}
+body.single-post .single-post-meta-wrapper .meta-top .meta-left.has-author {
+  grid-template-columns: 60px auto;
+}
+body.single-post .single-post-meta-wrapper .meta-top .meta-left > div {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+body.single-post
+  .single-post-meta-wrapper
+  .meta-top
+  .meta-left
+  > div:only-of-type {
+  align-self: center;
+  grid-row: span 2 / auto;
+}
+body.single-post .single-post-meta-wrapper .meta-top .meta-left .meta-left-top {
+  align-self: end;
+}
+body.single-post .single-post-meta-wrapper .meta-top .avatar {
+  grid-row: span 2 / auto;
+  border-radius: 100%;
+}
+body.single-post .single-post-meta-wrapper .meta-top .meta-right {
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: column;
+}
+body.single-post .single-post-meta-wrapper .meta-top .meta-right {
+  align-items: flex-end;
+}
+body.single-post .single-post-meta-wrapper .meta-top .with-separator {
+  padding-top: 3px;
+  padding-bottom: 2px;
+}
+body.single-post
+  .single-post-meta-wrapper
+  .meta-top
+  .with-separator
+  .vamtam-meta-date::before {
+  margin-right: 10px;
+}
+body.single-post
+  .single-post-meta-wrapper
+  .meta-top
+  .with-separator
+  > :not(:last-child) {
+  margin-right: 20px;
+}
+body.single-post .single-post-meta-wrapper .meta-top .vamtam-meta-date {
+  font: inherit;
+  letter-spacing: inherit;
+}
+body.single-post .single-post-meta-wrapper .author a {
+  margin-left: 5px;
+}
+body.single-post .single-post-meta-wrapper + div {
+  margin-top: var(--vamtam-sidebar-content-margin);
+  margin-bottom: var(--vamtam-sidebar-content-margin);
+}
+body.single-post .media-inner {
+  margin-bottom: var(--vamtam-content-space-m);
+}
+body.single-post:not(.layout-full) #sub-header {
+  border-top: 0;
+}
+body.single-post
+  .single-post-wrapper
+  .post-content-outer
+  .vamtam-meta-tax:last-child {
+  margin-right: 0;
+  padding-top: var(--vamtam-content-space-m);
+}
+body.single-post
+  .single-post-wrapper
+  .post-content-outer
+  .single-post-meta-bottom {
+  clear: both;
+}

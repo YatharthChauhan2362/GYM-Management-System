@@ -1,0 +1,30 @@
+.elementor-10263 .elementor-element.elementor-element-64f6370 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+.elementor-10263
+  .elementor-element.elementor-element-385116f
+  > .elementor-widget-wrap
+  > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {
+  margin-bottom: 0;
+}
+.elementor-10263
+  .elementor-element.elementor-element-0784aa5
+  .elementor-star-rating {
+  font-size: 11px;
+}
+body:not(.rtl)
+  .elementor-10263
+  .elementor-element.elementor-element-0784aa5
+  .elementor-star-rating
+  i:not(:last-of-type) {
+  margin-right: 3px;
+}
+body.rtl
+  .elementor-10263
+  .elementor-element.elementor-element-0784aa5
+  .elementor-star-rating
+  i:not(:last-of-type) {
+  margin-left: 3px;
+}

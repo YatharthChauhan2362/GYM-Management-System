@@ -1,0 +1,77 @@
+{
+  "id": 6248,
+  "date": "2021-02-07T15:18:56",
+  "date_gmt": "2021-02-07T15:18:56",
+  "guid": {
+    "rendered": "https://f7.vamtam.com/?post_type=product&#038;p=6248"
+  },
+  "modified": "2021-03-09T20:23:17",
+  "modified_gmt": "2021-03-09T20:23:17",
+  "slug": "sports-top",
+  "status": "publish",
+  "type": "product",
+  "link": "https://f7.vamtam.com/product/sports-top/",
+  "title": { "rendered": "Sports Top" },
+  "content": {
+    "rendered": "<div class=\"vgblk-rw-wrapper limit-wrapper\">DESIGN: Properly long curved hem,make this sleeveless tank tops ,pair perfectly with your pants, leggings, shorts, shirts for a cool everyday look, make you more beautiful.The ribbed tank tops can be wore when you do sports in the gym, do yoga exercise or most outdoor or indoor activities,you can also wear it as pajama at home basic colors make this racerback undershirt sexy and elegant.</p>\n<p>&nbsp;</p>\n<p>GARMENT CARE: This basic yoga tank tops can be machine washable, hand wash cold, do not bleach and ironed. Please check our size chart before purchasing if you are the first time to buy this athletic racerback tank top.</p></div>\n<p><!-- .vgblk-rw-wrapper --></p>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>This womens workout tank top is made of 95% modal and 5% spandex. Breathable and super soft modal fobric,which keeps you comfortable and dry while running.Lightweight provides comfortable feeling against skin,smooth moving, great fitting, super comfortable racerback tanks for women and girls.</p>\n<p>The racerback style of this tank combine fashion,function and performance that allows you to focus on your workout instead of wardrobe malfunctions, This activewear tank tops for women will be the ones women reach for over and over.</p>\n",
+    "protected": false
+  },
+  "featured_media": 14705,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": [],
+  "product_cat": [49, 51],
+  "product_tag": [52, 54],
+  "_links": {
+    "self": [{ "href": "https://f7.vamtam.com/wp-json/wp/v2/product/6248" }],
+    "collection": [{ "href": "https://f7.vamtam.com/wp-json/wp/v2/product" }],
+    "about": [{ "href": "https://f7.vamtam.com/wp-json/wp/v2/types/product" }],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://f7.vamtam.com/wp-json/wp/v2/comments?post=6248"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 1,
+        "href": "https://f7.vamtam.com/wp-json/wp/v2/product/6248/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 14706,
+        "href": "https://f7.vamtam.com/wp-json/wp/v2/product/6248/revisions/14706"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://f7.vamtam.com/wp-json/wp/v2/media/14705"
+      }
+    ],
+    "wp:attachment": [
+      { "href": "https://f7.vamtam.com/wp-json/wp/v2/media?parent=6248" }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "product_cat",
+        "embeddable": true,
+        "href": "https://f7.vamtam.com/wp-json/wp/v2/product_cat?post=6248"
+      },
+      {
+        "taxonomy": "product_tag",
+        "embeddable": true,
+        "href": "https://f7.vamtam.com/wp-json/wp/v2/product_tag?post=6248"
+      }
+    ],
+    "curies": [
+      { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+    ]
+  }
+}
