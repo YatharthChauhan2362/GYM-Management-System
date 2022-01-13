@@ -1,6 +1,7 @@
 <?php
 
-
+if(isset($_POST['send']))
+{
 $name = $_POST['name'];
 $gender = $_POST['gender'];
 $dob = $_POST['dob'];
@@ -11,7 +12,10 @@ $zipcode = $_POST['zipcode'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
 
-$connection = mysqli_connect('localhost', 'root');
+}
+
+
+$connection = new mysqli('localhost', 'root', '', 'join');
 
 if ($connection->connect_error)
  {
@@ -19,16 +23,17 @@ if ($connection->connect_error)
 } 
 else
  {
-   $stmt=$connection->prepare("insert into registration(name, gender, dob, address, city, state, zipcode, email, phone) values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+   $stmt=$connection->prepare("insert into personal_information(name, gender, dob, address, city, state, zipcode, email, phone) values(?, ?, ?, ?, ?, ?, ?, ?, ?)");
 
-   $stmt->bind_param("ssbsssisi", $name, $gender, $dob, $address, $city, $state, $zipcode, $email, $phone);
+   $stmt->bind_param("ssisssisi", $name, $gender, $dob, $address, $city, $state, $zipcode, $email, $phone);
 
-   $stmt->execute();
-
+    $stmt->execute();
+   $stmt->store_result();
+  
    echo "Joined Successfully";
 
    $stmt->close();
-   $conn->close();
+   $connection->close();
 
 
 }
