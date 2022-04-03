@@ -1,0 +1,4 @@
+$mysql_host = "mysql16.000webhost.com";
+$mysql_database = "a8743500_secure";
+$mysql_user = "a8743500_secure";
+$mysql_password = "ipad12345";

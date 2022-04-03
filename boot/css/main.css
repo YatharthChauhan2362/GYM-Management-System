@@ -1,0 +1,36 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.jumbotron {
+	height: 300;
+	overflow: none;
+}
+.error {
+	display: none;
+}
+.form-signin {
+max-width: 30%;
+padding: 19px 29px 29px;
+margin: 0 auto 20px;
+margin-top: 20px;
+background-color: @lightGray;
+border: 1px solid @green;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+
+  h2 {
+    text-align: center;
+    margin-top: 0px;
+  }
+}
+
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+font-size: 16px;
+height: auto;
+margin-bottom: 15px;
+padding: 7px 9px;
+}
