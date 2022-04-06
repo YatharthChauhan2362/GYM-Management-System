@@ -1,1 +1,1 @@
-<footer class="main">Copyright &copy; 2021 <strong> Gym System </strong></footer>
+<footer class="main"><strong>Gym Management System</strong></footer>
