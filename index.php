@@ -22,10 +22,16 @@ if(isset($_SESSION["user_data"]))
     <body class="page-body login-page login-form-fall">
         <div id="container">
 
-
+            <br>
+            <br>
+            <br>
+            <br>
 
             <h1 style="color:white;">
-                <center>GYM MANAGEMENT SYSTEM</center>
+
+                <center>
+                    <h1>GYM MANAGEMENT SYSTEM</h1>
+                </center>
             </h1>
 
 
@@ -34,7 +40,7 @@ if(isset($_SESSION["user_data"]))
                 <div></div>
             </div>
 
-            <br> <br> <br> <br> <br>
+
             <div class="login-form">
 
                 <div class="login-content">
