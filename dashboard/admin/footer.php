@@ -1,1 +1,0 @@
-<footer class="main"><strong>Gym Management System</strong></footer>

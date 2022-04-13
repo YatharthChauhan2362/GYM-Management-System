@@ -1,6 +1,0 @@
--> Database Name: gymsysdb
-
--> Admin Login Details
-
-Username: admin
-Password: password
